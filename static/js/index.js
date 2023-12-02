@@ -507,7 +507,11 @@ function randomIntFromInterval(min, max) { // min and max included
 // Manejar la navegación inicial
 crearMenu();
 manejarNavegacion();
-window.location.href = "#/";
+
+// Para evitar el "Pagina no encontrada" cuando se entra
+if (window.location.origin + window.location.pathname === window.location.href){
+    window.location.href += "#/";
+}
 
 // Escuchar cambios en el evento hash para manejar la navegación
 window.addEventListener('hashchange', manejarNavegacion);
