@@ -475,6 +475,7 @@ function randomIntFromInterval(min, max) { // min and max included
 // Manejar la navegación inicial
 crearMenu();
 manejarNavegacion();
+window.location.href = "#/";
 
 // Escuchar cambios en el evento hash para manejar la navegación
 window.addEventListener('hashchange', manejarNavegacion);
