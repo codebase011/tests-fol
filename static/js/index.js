@@ -15,8 +15,6 @@ let unidadPreguntasAleatorias = [];
 const crearMenu = () => {
     let htmlOpcionesPredefinidas = `
         <li><a href="#/" class="nav__link" onClick="menuOnClick()">Inicio</a></li>
-        <li><a href="#/acerca" class="nav__link" onClick="menuOnClick()">Acerca</a></li>
-        <li><a href="#/contacto" class="nav__link" onClick="menuOnClick()">Contacto</a></li>
     `;
     let htmlOpcionesTests = "";
 
@@ -64,14 +62,11 @@ function manejarNavegacion() {
 
     switch (true) {
         case hash === '#/':
-            cambiarContenido('<h1>¡Bienvenido a la página de inicio!</h1>');
+            cambiarContenido('<h1>Tests de FOL</h1>');
             break;
-        case hash === '#/acerca':
+/*         case hash === '#/acerca':
             cambiarContenido('<h1>Conoce más sobre nosotros.</h1>');
-            break;
-        case hash === '#/contacto':
-            cambiarContenido('<h1>¡Contáctanos para obtener más información!</h1>');
-            break;
+            break; */
         //case /^#\/test\/\d+(\/\w+)?$/.test(hash):
         // Pueder ser /test/1 -> "Test Unidad 1"
         // o /test/aleatorio/20 -> "Test aleatorio de 20 preguntas"
