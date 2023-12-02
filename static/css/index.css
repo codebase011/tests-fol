@@ -78,6 +78,10 @@ input[type="checkbox"] {
     cursor: pointer;
 }
 
+input[type='number']{
+    width: 60px;
+} 
+
 label {
     margin-left: 0.5em;
     cursor: pointer;
@@ -136,6 +140,8 @@ button:hover {
 button:active {
     background-color: rgb(255, 8, 8);
 }
+
+
 
 @media screen and (max-width: 768px) {
     body {

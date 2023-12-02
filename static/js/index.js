@@ -1,5 +1,112 @@
-import { unidades } from "./unidades.js";
-console.log(unidades);
+// import { unidades } from "./unidades.js";
+// console.log(unidades);
+/*************************************************************************************************************************************************************************************************************
+ * DEFINICION DE LAS UNIDADES DEL TEMARIO
+ * Array de unidades con un campo "nombre" que contiene otro array con las preguntas, posibles Respuestas
+ * y el num. de respuesta correcta.
+ *************************************************************************************************************************************************************************************************************/
+const unidades = [
+    // UNIDAD 1 (0)
+    {
+        //idUnidad: 1,
+        titulo: "Los derechos del trabajo",
+        preguntas: [
+            {
+                enunciado: "Señala cuáles de los siguientes derechos están considerados derechos fundamentales por la Constitución española de 1978:",
+                posiblesRespuestas: [
+                    "Derecho al trabajo y a un salario",
+                    "Derecho a la huelga y a la libertad sindical",
+                    "Derecho a la ocupación efectiva",
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "Indica cuál de las siguientes situaciones está excluida del derecho laboral",
+                posiblesRespuestas: [
+                    "Una joven que trabaja en una compañia de seguros con un contrato mercantil y cobra comisión por cada póliza que realiza",
+                    "Un empleado al servicio del hogar familiar.",
+                    "Un auxiliar de farmacia",
+                    "Una deportista profesional",
+                ],
+                numRespuestaCorrecta: 1,
+            },
+            {
+                enunciado: "Enunciado 3",
+                posiblesRespuestas: [
+                    "Respuesta 1",
+                    "Respuesta 2",
+                ],
+                numRespuestaCorrecta: 1,
+            },
+            {
+                enunciado: "Enunciado 4",
+                posiblesRespuestas: [
+                    "Respuesta 1",
+                    "Respuesta 2",
+                ],
+                numRespuestaCorrecta: 1,
+            },
+            {
+                enunciado: "Enunciado 5",
+                posiblesRespuestas: [
+                    "Respuesta 1",
+                    "Respuesta 2",
+                    "Respuesta 3",
+                    "Respuesta 4",
+                ],
+                numRespuestaCorrecta: 4,
+            },
+        ],
+    },
+    // UNIDAD 2 (1)
+    {
+        titulo: "Nombre Unidad 2",
+        preguntas: [
+            {
+                enunciado: "Enunciado 1",
+                posiblesRespuestas: [
+                    "Respuesta 1",
+                    "Respuesta 2",
+                    "Respuesta 3",
+                ],
+                numRespuestaCorrecta: 1,
+            },
+            {
+                enunciado: "Enunciado 2",
+                posiblesRespuestas: [
+                    "Respuesta 1",
+                    "Respuesta 2",
+                    "Respuesta 3",
+                ],
+                numRespuestaCorrecta: 2,
+            },
+        ],
+    },
+    {
+        // UNIDAD 3 (2)
+        titulo: "Nombre Unidad 3",
+        preguntas: [
+            {
+                enunciado: "Enunciado 1",
+                posiblesRespuestas: [
+                    "Respuesta 1",
+                    "Respuesta 2",
+                    "Respuesta 3",
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "Enunciado 2",
+                posiblesRespuestas: [
+                    "Respuesta 1",
+                    "Respuesta 2",
+                    "Respuesta 3",
+                ],
+                numRespuestaCorrecta: 1,
+            },
+        ],
+    }
+];
 
 let unidadPreguntasAleatorias = [];
 
@@ -84,17 +191,35 @@ function manejarNavegacion() {
                     cambiarContenido(`
                         <h1>Crear Test Aleatorio</h1>
                         <div id="menuTestAleatorio">
+                            <dialog id="mensaje"></dialog>
                             <label for="numPreguntas">Nº de preguntas</label>
-                            <input type="number" id="numPreguntas" value="15"><br>
+                            <input type="number" id="numPreguntas" value="15" size="1" min="1"><br>
                             <input type="checkbox" id="unidad1" value="1" checked>
                             <label for="unidad1">Unidad 1</label><br>
                             <input type="checkbox" id="unidad2" value="2" checked>
                             <label for="unidad2">Unidad 2</label><br>
                             <input type="checkbox" id="unidad3" value="3" checked>
                             <label for="unidad3">Unidad 3</label><br>
-                            <button id="crearTestAleatorio";">Crear test</button>
+                            <button id="crearTestAleatorio">Crear test</button>
                         </div>
                     `);
+                    let $mensaje = document.getElementById("mensaje");
+        /*             const ocultarMensaje = () => {
+                        $mensaje.close();
+                    } */
+                    const mostrarMensaje = (mensaje) => {
+                        $mensaje.innerHTML = `
+                            <span style="font-size: 2em;">⚠️</span>
+                            <p>${mensaje}</p>
+                            <button id="botonOcultarMensaje" onClick="ocultarMensaje()">Ok</button>
+                        `;
+                        $mensaje.showModal();
+                        document.getElementById("botonOcultarMensaje").addEventListener(
+                            'click', 
+                            () => $mensaje.close()
+                        );
+                    }
+
                     let $botonCrearTestAleatorio = document.querySelector("#crearTestAleatorio");
 
                     if ($botonCrearTestAleatorio != null) {
@@ -103,13 +228,23 @@ function manejarNavegacion() {
                             let numPreguntas = $numPreguntas == null ? 10 : $numPreguntas.value;
                             let $checkBoxes = document.querySelectorAll("input[type='checkbox']");
                             let unidades = "";
-
+                            
                             if ($checkBoxes != null) {
                                 $checkBoxes.forEach((cb) => {
                                     unidades += cb.checked ? "," + cb.value : "";
                                 })
                             }
-                            document.location.href = `#/test/aleatorio/${numPreguntas}/${unidades}`;
+
+                            if (numPreguntas < 1){
+                                mostrarMensaje("Introduce un número mayor que 1");
+                            }
+                            else if (unidades === ""){
+                                //window.alert('Selecciona al menos 1 unidad');
+                                mostrarMensaje("Selecciona al menos una unidad");
+                            }
+                            else{
+                                document.location.href = `#/test/aleatorio/${numPreguntas}/${unidades}`;
+                            }
                         }
                         )
                     };
@@ -182,9 +317,9 @@ const crearUnidadAleatoria = (numPreguntas, unidadesElegidas) => {
         // Generar num. aleatorio entre 0 y el total de unidades
         let unidadAleatoria = randomIntFromInterval(0, arrayUnidadesElegidas.length - 1);
         // Generar num. aleatorio entre 0 y el num. de preguntas total de la unidad
-        let preguntaAleatoria = randomIntFromInterval(0, unidades[arrayUnidadesElegidas[unidadAleatoria] - 1].preguntas.length - 1);
+        let preguntaAleatoria = randomIntFromInterval(0, unidades[arrayUnidadesElegidas[unidadAleatoria]-1].preguntas.length - 1);
         // Añadir la pregunta aleatoria al array de preguntas aleatorias
-        unidadPreguntasAleatorias.preguntas.push(unidades[unidadAleatoria].preguntas[preguntaAleatoria])
+        unidadPreguntasAleatorias.preguntas.push(unidades[arrayUnidadesElegidas[unidadAleatoria]-1].preguntas[preguntaAleatoria])
     }
     console.log(unidadPreguntasAleatorias);
     return unidadPreguntasAleatorias;
