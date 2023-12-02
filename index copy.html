@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fol tests</title>
+</head>
+
+<body>
+ <!--    <nav class="nav">
+        <a href="/" class="nav__link" data-link>Dashboard</a>
+        <a href="/posts" class="nav__link" data-link>posts</a>
+        <a href="/settings" class="nav__link" data-link>settings</a>
+    </nav> -->
+    <nav class="nav">
+        <a href="#" class="nav__link" onclick="router.navigate('home')">Dashboard</a>
+        <a href="#" class="nav__link" onclick="router.navigate(router.routes.tests[0])" data-link>Unidad 1</a>
+        <a href="#" class="nav__link" onclick="router.navigate(router.routes.tests[1])" data-link>Unidad 2</a>
+        <a href="/tests/3" class="nav__link" onclick="router.navigate(router.routes.tests)" data-link>Unidad 3</a>
+        <a href="/settings" class="nav__link" onclick="router.navigate('/settings')" data-link>settings</a>
+    </nav>
+    <main class="root"></main>
+    <script src="./static/js/index.js"></script>
+</body>
+
+</html>

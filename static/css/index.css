@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&family=Quicksand:wght@400;500;600;700&family=Work+Sans:wght@400;500;700;900&display=swap');
+
+* {
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    --nav-width: 170px;
+    margin: 0 0 0 var(--nav-width);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    /* background-color: #a5d3e37e; */
+    background-color: rgba(255, 171, 171, 0.652);
+    /* color: #041608; */
+    color: black;
+    /* box-sizing: border-box; */
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: var(--nav-width);
+    height: 100vh;
+    /* background: #222222; */
+    /* background-color: #091f29; */
+    background-color: #de2d2d;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0px;
+}
+
+li {
+    margin-left: 0;
+}
+
+.nav__link {
+    display: block;
+    padding: 20px 18px;
+    text-decoration: none;
+    color: #eeeeee;
+    font-weight: 500;
+    min-width: max-content;
+}
+
+.nav__link:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+#content {
+    margin: 2em;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+a {
+    color: #009579;
+}
+
+.bloque_enunciado_respuestas {
+    margin-bottom: 2em;
+    border: 0px solid black;
+    background-color: rgba(255, 182, 182, 0.652);
+    padding: 1em;
+}
+
+input[type="radio"] {
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+label {
+    margin-left: 0.5em;
+    cursor: pointer;
+}
+
+h1 {
+    margin-bottom: -25px;
+}
+
+h2 {
+    /* color: #969696; */
+}
+
+h3 {
+    margin-top: 0;
+}
+
+#resultado {
+    /* background-color: rgb(238, 157, 157); */
+    /* padding: 0.2em; */
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+button {
+    min-width: 200px;
+    min-height: 70px;
+    background-color: rgb(251, 44, 44);
+    color: white;
+    border-color: transparent;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+button:disabled{
+    background-color: black; 
+    color:gray;   
+}
+
+button:hover:disabled {
+    background-color: rgb(0, 0, 0);
+    color:gray;
+}
+
+button:hover {
+    background-color: rgb(255, 83, 83);
+}
+
+button:active {
+    background-color: rgb(255, 8, 8);
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        margin: 0;
+        background-color: rgba(255, 215, 215, 0.652);
+    }
+    .nav__link{
+        padding: 10px;
+        min-width: 200px;
+    }
+
+    #content{
+        margin-top: 4em;
+        margin-right: 1em;
+        margin-left: 1em;
+        text-align: justify;
+        font-size: 0.85em;
+    }
+
+    button{
+        min-width: -webkit-fill-available;
+        margin-right: 0;
+    }
+
+    #botonesComprobar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #resultado {
+        text-align: center;
+    }
+      
+    /****************
+    MANU HAMBURGUESA
+    *****************/
+    header {
+        z-index: 2;
+    }
+
+    #menu-bar {
+        z-index: 3;
+        width: 45px;
+        height: 40px;
+        margin: 24px 0 10px 17px;
+        cursor: pointer;
+
+    }
+
+    .bar {
+        height: 5px;
+        width: 100%;
+        background-color: #DC052D;
+        display: block;
+        border-radius: 5px;
+        transition: 0.3s ease;
+    }
+
+    #bar1 {
+        transform: translateY(-4px);
+    }
+
+    #bar3 {
+        transform: translateY(4px);
+    }
+
+    nav {
+        transition: 0.3s ease;
+        display: none;
+        z-index: -1;
+        /* background-color: white; */
+    }
+
+    nav ul {
+        /* padding: 0 22px; */
+    }
+
+    nav li {
+        list-style: none;
+        padding: 12px 0;
+    }
+
+    nav li a {
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    nav li a:hover {
+        font-weight: bold;
+    }
+
+    .menu-bg,
+    header {
+        top: 0;
+        left: 0;
+        position: absolute;
+        /* position: sticky; */
+    }
+
+    .menu-bg {
+        z-index: 1;
+        width: 0;
+        height: 0;
+        margin: 30px 0 20px 20px;
+        background: radial-gradient(circle, #DC052D, #DC052D);
+        background: red;
+        /* border-radius: 50%; */
+        transition: 0.3s ease;
+    }
+
+    .change {
+        display: block;
+    }
+
+    .change .bar {
+        background-color: white;
+    }
+
+    .change #bar1 {
+        transform: translateY(4px) rotateZ(-45deg);
+    }
+
+    .change #bar2 {
+        opacity: 0;
+    }
+
+    .change #bar3 {
+        transform: translateY(-6px) rotateZ(45deg);
+    }
+
+    .change-bg {
+        width: 400px;
+        height: 100em;
+        transform: translate(-60%, -30%);
+    }
+}
