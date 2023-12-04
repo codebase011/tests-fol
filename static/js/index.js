@@ -1,5 +1,7 @@
-import { unidades, unidadPreguntasAleatorias } from "./unidades.js";
+import { unidades } from "./unidades.js";
 console.log(unidades);
+
+let unidadPreguntasAleatorias = [];
 
 /*************************************************************************************************************************************************************************************************************
  * INICIO DE LA APLICACIÓN
@@ -247,9 +249,13 @@ const crearTest = (numUnidad, numPreguntas, unidadesElegidas) => {
         let posiblesRespuestas = "";
 
         for (let i = 0; i < pregunta.posiblesRespuestas.length; i++) {
-            let radio = `<input type="radio" id="pregunta${numPregunta + 1}-respuesta${i + 1}" name=pregunta${numPregunta + 1}>`
+            let radio = `<input type="radio" id="pregunta${numPregunta + 1}-respuesta${i + 1}" name=pregunta${numPregunta + 1}>`;
+            let letra = String.fromCharCode(97 + i); // 97 = 'a', se le suma i para 'b', 'c', 'd'....
             posiblesRespuestas += `
-                 ${radio}<label id="label_pregunta${numPregunta + 1}-respuesta${i + 1}" for="pregunta${numPregunta + 1}-respuesta${i + 1}">${pregunta.posiblesRespuestas[i]}</label><br>
+                 ${radio}<label id="label_pregunta${numPregunta + 1}-respuesta${i + 1}" for="pregunta${numPregunta + 1}-respuesta${i + 1}">
+                        ${pregunta.posiblesRespuestas[i]}
+                    </label>
+                 <br>
             `;
         }
         bloquesDePreguntas += `
