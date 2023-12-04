@@ -252,8 +252,8 @@ const crearTest = (numUnidad, numPreguntas, unidadesElegidas) => {
             let radio = `<input type="radio" id="pregunta${numPregunta + 1}-respuesta${i + 1}" name=pregunta${numPregunta + 1}>`;
             let letra = String.fromCharCode(97 + i); // 97 = 'a', se le suma i para 'b', 'c', 'd'....
             posiblesRespuestas += `
-                 ${radio}<label id="label_pregunta${numPregunta + 1}-respuesta${i + 1}" for="pregunta${numPregunta + 1}-respuesta${i + 1}">
-                    ${letra}. ${pregunta.posiblesRespuestas[i]}
+                 ${radio}<label id="label_pregunta${numPregunta + 1}-respuesta${i + 1}" for="pregunta${numPregunta + 1}-respuesta${i + 1}"> 
+                        ${pregunta.posiblesRespuestas[i]}
                     </label>
                  <br>
             `;
