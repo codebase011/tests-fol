@@ -3,7 +3,7 @@
  * Array de unidades con un campo "nombre" que contiene otro array con las preguntas, posibles Respuestas
  * y el num. de respuesta correcta.
  *************************************************************************************************************************************************************************************************************/
-export var unidadPreguntasAleatorias = [];
+export let unidadPreguntasAleatorias = [];
 
 export const unidades = [
     // UNIDAD 1 (0)
