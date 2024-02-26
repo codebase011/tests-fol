@@ -272,30 +272,132 @@ export const unidades = [
         titulo: "Nombre Unidad 3",
         preguntas: [
             {
-                enunciado: "Enunciado 1",
+                enunciado: "Indica cuál es el promedio de la jornada máxima semanal.",
                 posiblesRespuestas: [
-                    "Respuesta 1",
-                    "Respuesta 2",
-                    "Respuesta 3",
+                    "Treinta y cinco horas.",
+                    "Cuarenta horas en cómputo anual",
+                    "Treinta horas.",
+                    "Treinta y siete horas."
                 ],
                 numRespuestaCorrecta: 2,
             },
             {
-                enunciado: "Enunciado 2",
+                enunciado: "La empresa puede distribuir la jornada laboral de forma irregular a lo largo del año en un porcentaje máximo del...",
                 posiblesRespuestas: [
-                    "Respuesta 1",
-                    "Respuesta 2",
-                    "Respuesta 3",
+                    "10%",
+                    "5%",
+                    "15%",
+                    "20%"
                 ],
                 numRespuestaCorrecta: 1,
             },
             {
-                enunciado: "Enunciado2",
+                enunciado: "Los registros de control del horario laboral se deben conservar durante...",
                 posiblesRespuestas: [
-                    "AAAAAAA",
-                    "BBBBBBB",
-                    "CCCCCCC",
-                    "DDDDDDD",
+                    "Cuatro años.",
+                    "Dos años",
+                    "Un mes",
+                    "No es necesario conservarlos.",
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "El importe de la reducción de salario para cuidar a un menor de doce años es...",
+                posiblesRespuestas: [
+                    "Del 50%",
+                    "Proporcional a la reducción del trabajo.",
+                    "No tiene reducción alguna.",
+                    "Del 25%",
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "La reducción de jornada por cuidado de un lactante para un progenitor que tiene un hijo o hija menor de nueve meses le corresponde...",
+                posiblesRespuestas: [
+                    "Al padre",
+                    "A la madre",
+                    "Es un derecho de ambos progenitores.",
+                    "Este derecho está derogado.",
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "Las horas extraordinarias son voluntarias, salvo que...",
+                posiblesRespuestas: [
+                    "Se establezcan por convenio.",
+                    "Sean por fuerza mayor",
+                    "Se pacten por contrato.",
+                    "Todas las respuestas anteriores son correctas.",
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "Si se compensan las horas extraordinarias con tiempo de descanso, ¿en qué periodo puede disfrutarlo la persona trabajadora?",
+                posiblesRespuestas: [
+                    "En los dos meses siguientes.",
+                    "En los seis meses siguientes",
+                    "En los cuatro meses siguientes",
+                    "En los doce meses siguientes",
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "El descanso mínimo semanal para los mayores de edad es de...",
+                posiblesRespuestas: [
+                    "Dos días",
+                    "Un día y medio.",
+                    "Tres días.",
+                    "Dos días hábiles.",
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "Se considera persona trabajadora nocturna aquella que trabaje durante...",
+                posiblesRespuestas: [
+                    "Al menos, un tercio de la jornada anual en horario nocturno",
+                    "Cuatro horas en horario nocturno.",
+                    "Al menos, tres horas en jornada nocturna.",
+                    "Las tres respuestas anteriores son verdaderas.",
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "Dentro de la jornada continuada, ¿cuándo se considera tiempo de trabajo la pausa para el bocadillo?",
+                posiblesRespuestas: [
+                    "Cuando así lo establezca el convenio o el contrato.",
+                    "Nunca.",
+                    "Solo para menores de 18 años.",
+                    "Ninguna de las respuestas anteriores es verdadera.",
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "Si las vacaciones coinciden con una incapacidad temporal por un accidente no laboral, la persona trabajadora..",
+                posiblesRespuestas: [
+                    "Pierde su derecho a vacaciones.",
+                    "Podré disfrutarlas cuando finalice la incapacidad, siempre que no hayan transcurrido más de 18 meses desde el final del año en que se hayan originado.",
+                    "Tiene que disfrutarlas dentro del año natural.",
+                    "Podra disfrutarlas cuando finalice la incapacidad, si no han transcurrido mas de doce meses desde el final del año en que se hayan originado.",
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "El principio de igualdad de remuneración, sin discriminación por razón de sexo, obliga a la empresa...",
+                posiblesRespuestas: [
+                    "A pagar el mismo sueldo por la realización de un trabajo de igual valor.",
+                    "A hacer el pago directa o indirectamente y cualquiera que sea su naturaleza, salarial o extrasalarial.",
+                    "A llevar un registro con los valores medios de los salarios de la plantilla, desagregados por sexo y distribuidos por grupos profesionales.",
+                    "Todas las respuestas son verdaderas.",
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "El salario en especie no puede superar:",
+                posiblesRespuestas: [
+                    "El 50% de las percepciones salariales.",
+                    "El 25% de las percepciones salariales.",
+                    "El 30% de las percepciones salariales.",
+                    "El 15% de las percepciones salariales.",
                 ],
                 numRespuestaCorrecta: 2,
             },
