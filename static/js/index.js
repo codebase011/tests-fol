@@ -64,6 +64,7 @@ function manejarNavegacion() {
         case hash === '#/':
             cambiarContenido(`
                 <h1>Tests de FOL</h1>
+                <p>Test resueltos y para practicar del libro dde FOL de la editorial Mc Graw Hill</p>
             `);
 
             break;
