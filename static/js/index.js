@@ -62,10 +62,25 @@ function manejarNavegacion() {
 
     switch (true) {
         case hash === '#/':
+            let botonesUnidades = '<div class="bloque_unidades_disponibles">';
+            
+
+            for (let numUnidad = 0; numUnidad < unidades.length; numUnidad++) {
+                botonesUnidades += `
+                        <li>
+                            <a href="#/test/${numUnidad + 1}"  onClick="menuOnClick()">
+                                Unidad ${numUnidad + 1}
+                            </a>
+                        </li>
+                `;
+            }
+            botonesUnidades += "</div>";
+
             cambiarContenido(`
                 <h1>Tests de FOL</h1>
-                <p>Test resueltos y para practicar del libro dde FOL de la editorial Mc Graw Hill</p>
-                <p>Unidades disponibles 1-${unidades.length}</p>
+                <p>Test resueltos y para practicar del libro dde <b>FOL</b> de la editorial <b>Mc Graw Hill</b></p>
+                <p>Unidades disponibles: 1-${unidades.length}</p>
+                ${botonesUnidades}
             `);
 
             break;

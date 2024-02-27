@@ -415,15 +415,145 @@ export const unidades = [
      * UNIDAD 4
      **********************************************************************************************************************************************************************************************************/
     {
-        titulo: "Nombre Unidad 6",
+        titulo: "Nombre Unidad 4",
         preguntas: [
             {
-                enunciado: "",
+                enunciado: "Las percepciones extrasalariales...",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "Nunca cotizan a la Seguridad Social",
+                    "Algunas cotizan a la Seguridad Social, si sobrepasan un limite.",
+                    "Nunca tributan en el IRPF.",
+                    "No cotizan a la Seguridad Social y no tributan en el IRPF."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "Los gastos de manutención durante los viajes de una persona trabajadora...",
+                posiblesRespuestas: [
+                    "Nunca cotizan a la Seguridad Social.",
+                    "Cotiza la parte que supera el limite reglamentario.",
+                    "Cotizan integramente a la Seguridad Social.",
+                    "Cotiza la parte que no supera el límite reglamentario."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "Indica qué conceptos no cotizan a la Seguridad Social:",
+                posiblesRespuestas: [
+                    "Las prendas de trabajo.",
+                    "El desgaste de útiles y herramientas.",
+                    "Las indemnizaciones por traslado.",
+                    "El quebranto de moneda."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "Esretribución en especie...",
+                posiblesRespuestas: [
+                    "La percepcion por prendas de trabajo.",
+                    "El quebranto de moneda.",
+                    "La utilización de automóvil de empresa.",
+                    "El plus de transporte."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "En el cálculo de la base por contingencias comunes no se incluyen...",
+                posiblesRespuestas: [
+                    "Las percepciones salariales.",
+                    "La prorrata de las pagas extraordinarias.",
+                    "Las horas extraordinarias.",
+                    "Los productos en especies"
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "La base por contingencias profesionales...",
+                posiblesRespuestas: [
+                    "Es la misma que la base por contingencias comunes.",
+                    "Es la base por contingencias comunes más las pagas extraordinarias.",
+                    "Es la base por contingencias comunes más las horas extraordinarias.",
+                    "Nunca es igual que la base por contingencias comunes."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "Cuando la retribución es mensual, para el cálculo de la base de cotización, las pagas extraordinarias...",
+                posiblesRespuestas: [
+                    "Se prorratean entre doce meses.",
+                    "Se prorratean entre 365 días.",
+                    "Se prorratean entre el número de pagas.",
+                    "No se prorratean."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "El tipo de cotización por desempleo...",
+                posiblesRespuestas: [
+                    "Es el mismo para todos los tipos de contrato.",
+                    "Es mayor para los contratos de duración determinada.",
+                    "Es el mismo que por contingencias comunes.",
+                    "Es el mismo que para el Fogasa."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "Si la base de cotización que se ha calculado es superior al máximo establecido para el grupo de cotización...",
+                posiblesRespuestas: [
+                    "Se cotiza por la base del grupo superior.",
+                    "Se cotiza por la base máxima del grupo.",
+                    "Se aplican tipos incrementados.",
+                    "Se cotiza por la base calculada."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "La cotización al Fogasa le corresponde...",
+                posiblesRespuestas: [
+                    "Ala persona trabajadora.",
+                    "A la empresa",
+                    "A la persona trabajadora y a la empresa.",
+                    "A ninguna de ellas."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "Se exceptúan de gravamen y, por tanto, no se les practica retención a cuenta del IRPF, a ...",
+                posiblesRespuestas: [
+                    "Los incentivos.",
+                    "Las prestaciones de la Seguridad Social.",
+                    "Las percepciones extrasalariales.",
+                    "Los gastos de locomoción justificados."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "¿El importe de la locomoción cotiza a la Seguridad Social?",
+                posiblesRespuestas: [
+                    "No, independientemente de su importe.",
+                    "Cotiza el importe en su totalidad.",
+                    "Cotiza solo cuando sobrepasa 0,19 €/km.",
+                    "Cotiza solo la cuantía que sobrepasa de 0,19 €/km."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "¿Tributan en el IRPF las dietas de viaje?",
+                posiblesRespuestas: [
+                    "No, nunca.",
+                    "Solamente cuando sobrepasan los límites.",
+                    "Solo la cuantía que no sobrepasa los límites.",
+                    "Solamente la cuantia que sobrepasa los límites."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "¿Los tiques restaurante tributan en el IRPF?",
+                posiblesRespuestas: [
+                    "Nunca, independientemente de su importe.",
+                    "Por todo el importe que no sobrepasa los limites legales.",
+                    "Solamente por la cuantia que sobrepasa los limites legales.",
+                    "Tributan por todo el importe."
                 ],
                 numRespuestaCorrecta: 2,
             },
@@ -437,12 +567,142 @@ export const unidades = [
         titulo: "Nombre Unidad 5",
         preguntas: [
             {
-                enunciado: "",
+                enunciado: "Un empresario o empresaria puede realizar una movilidad funcional dentro del mismo grupo profesional..",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "Solo si existe una causa técnica u organizativa.",
+                    "Solo si existe una causa económica.",
+                    "Sin necesidad de alegar causa alguna.",
+                    "Solo si existe una causa productiva."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "La movilidad funcional descendente fuera del grupo profesional puede hacerse...",
+                posiblesRespuestas: [
+                    "Solo durante quince días.",
+                    "Solo durante un mes.",
+                    "Solo mientras la persona trabajadora quiera.",
+                    "Solo durante el tiempo imprescindible."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "La movilidad geográfica temporal tiene un límite máximo de...",
+                posiblesRespuestas: [
+                    "Tres meses en tres años.",
+                    "Seis meses en tres años.",
+                    "Nueve meses en tres años.",
+                    "Doce meses en tres años."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "El listado que enumera las modificaciones sustanciales de las condiciones de trabajo en el Estatuto de los Trabajadores es...",
+                posiblesRespuestas: [
+                    "Un listado que no admite ninguna causa más.",
+                    "Un listado cerrado en el que solo la Inspección de Trabajo y Seguridad Social puede incluir otras causas.",
+                    "Un listado cerrado en el que solo los tribunales pueden incluir nuevas condiciones.",
+                    "Un listado abierto."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "La indemnización a una persona trabajadora que extingue su contrato al sufrir una movilidad geográfica definitiva será de...",
+                posiblesRespuestas: [
+                    "Ocho días de salario por cada año de servicio.",
+                    "Doce días de salario por cada año de servicio.",
+                    "Quince días de salario por cada año de servicio.",
+                    "Veinte días de salario por cada año de servicio."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "La suspensión de un contrato de trabajo genera una interrupción...",
+                posiblesRespuestas: [
+                    "Definitiva del contrato.",
+                    "Temporal del contrato.",
+                    "Solo de la obligación del trabajo.",
+                    "Solo de la obligación del pago."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "La excedencia por cuidado de un familiar reserva el puesto de trabajo durante:",
+                posiblesRespuestas: [
+                    "Un año.",
+                    "Dos años.",
+                    "Tres años.",
+                    "No reserva el puesto de trabajo."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "Las empresas deben preavisar la extinción de los contratos de trabajo si estos han tenido una duración de...",
+                posiblesRespuestas: [
+                    "Un año",
+                    "Más de un año.",
+                    "Dos años.",
+                    "Tres años."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "El plazo para impugnar un despido con el que no se está de acuerdo es de...",
+                posiblesRespuestas: [
+                    "Quince días hábiles.",
+                    "Veinte días hábiles.",
+                    "Veinte días naturales.",
+                    "No hay ningún plazo."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "Si un empleado o empleada falta a su trabajo, puede ser despedido mediante despido disciplinario siempre que las faltas...",
+                posiblesRespuestas: [
+                    "Sean repetidas.",
+                    "Sean repetidas y estén injustificadas.",
+                    "Puede despedirle con una sola falta injustificada.",
+                    "Todas las respuestas son verdaderas."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "Si una persona es despedida porque ejerce su derecho a una reducción de jornada para el cuidado de su hijo o hija menor de doce años, el despido será considerado...",
+                posiblesRespuestas: [
+                    "Nulo.",
+                    "Procedente.",
+                    "Improcedente.",
+                    "Procedente revisable."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "La falta de adaptación de una persona trabajadora a las modificaciones introducidas en su puesto de trabajo es causa de...",
+                posiblesRespuestas: [
+                    "Despido disciplinario.",
+                    "Despido por causas objetivas.",
+                    "Despido colectivo.",
+                    "No es causa de despido."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "Simular una enfermedad puede ser causa de...",
+                posiblesRespuestas: [
+                    "Despido disciplinario, al tratarse de una transgresión de la buena fe",
+                    "Despido por causas objetivas.",
+                    "No es causa de despido ni sanción.",
+                    "Solo puede ser sancionado con una amonestación."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "La extinción de un contrato por falta de adaptación a las modificaciones técnicas introducidas en el pues-to puede fundamentar un despido...",
+                posiblesRespuestas: [
+                    "Disciplinario.",
+                    "Colectivo.",
+                    "Objetivo.",
+                    "Ninguna de las anteriores."
                 ],
                 numRespuestaCorrecta: 2,
             },

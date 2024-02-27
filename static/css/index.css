@@ -61,7 +61,7 @@ a {
     color: #009579;
 }
 
-.bloque_enunciado_respuestas {
+.bloque_enunciado_respuestas, .bloque_unidades_disponibles {
     margin-bottom: 2em;
     border: 0px solid black;
     background-color: rgba(255, 182, 182, 0.652);
