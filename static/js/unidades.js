@@ -307,7 +307,7 @@ export const unidades = [
                     "Un mes",
                     "No es necesario conservarlos.",
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 1,
             },
             {
                 enunciado: "El importe de la reducción de salario para cuidar a un menor de doce años es...",
@@ -327,7 +327,7 @@ export const unidades = [
                     "Es un derecho de ambos progenitores.",
                     "Este derecho está derogado.",
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 3,
             },
             {
                 enunciado: "Las horas extraordinarias son voluntarias, salvo que...",
@@ -337,7 +337,7 @@ export const unidades = [
                     "Se pacten por contrato.",
                     "Todas las respuestas anteriores son correctas.",
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 4,
             },
             {
                 enunciado: "Si se compensan las horas extraordinarias con tiempo de descanso, ¿en qué periodo puede disfrutarlo la persona trabajadora?",
@@ -347,7 +347,7 @@ export const unidades = [
                     "En los cuatro meses siguientes",
                     "En los doce meses siguientes",
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 3,
             },
             {
                 enunciado: "El descanso mínimo semanal para los mayores de edad es de...",
@@ -367,7 +367,7 @@ export const unidades = [
                     "Al menos, tres horas en jornada nocturna.",
                     "Las tres respuestas anteriores son verdaderas.",
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 4,
             },
             {
                 enunciado: "Dentro de la jornada continuada, ¿cuándo se considera tiempo de trabajo la pausa para el bocadillo?",
@@ -377,7 +377,7 @@ export const unidades = [
                     "Solo para menores de 18 años.",
                     "Ninguna de las respuestas anteriores es verdadera.",
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta:1,
             },
             {
                 enunciado: "Si las vacaciones coinciden con una incapacidad temporal por un accidente no laboral, la persona trabajadora..",
@@ -397,7 +397,7 @@ export const unidades = [
                     "A llevar un registro con los valores medios de los salarios de la plantilla, desagregados por sexo y distribuidos por grupos profesionales.",
                     "Todas las respuestas son verdaderas.",
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 4,
             },
             {
                 enunciado: "El salario en especie no puede superar:",
@@ -407,7 +407,7 @@ export const unidades = [
                     "El 30% de las percepciones salariales.",
                     "El 15% de las percepciones salariales.",
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 3,
             },
         ],
     },
@@ -445,7 +445,7 @@ export const unidades = [
                     "Las indemnizaciones por traslado.",
                     "El quebranto de moneda."
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 3,
             },
             {
                 enunciado: "Esretribución en especie...",
@@ -455,7 +455,7 @@ export const unidades = [
                     "La utilización de automóvil de empresa.",
                     "El plus de transporte."
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 3,
             },
             {
                 enunciado: "En el cálculo de la base por contingencias comunes no se incluyen...",
@@ -465,7 +465,7 @@ export const unidades = [
                     "Las horas extraordinarias.",
                     "Los productos en especies"
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 3,
             },
             {
                 enunciado: "La base por contingencias profesionales...",
@@ -475,7 +475,7 @@ export const unidades = [
                     "Es la base por contingencias comunes más las horas extraordinarias.",
                     "Nunca es igual que la base por contingencias comunes."
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 3,
             },
             {
                 enunciado: "Cuando la retribución es mensual, para el cálculo de la base de cotización, las pagas extraordinarias...",
@@ -485,7 +485,7 @@ export const unidades = [
                     "Se prorratean entre el número de pagas.",
                     "No se prorratean."
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 1,
             },
             {
                 enunciado: "El tipo de cotización por desempleo...",
@@ -525,7 +525,7 @@ export const unidades = [
                     "Las percepciones extrasalariales.",
                     "Los gastos de locomoción justificados."
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 4,
             },
             {
                 enunciado: "¿El importe de la locomoción cotiza a la Seguridad Social?",
@@ -535,7 +535,7 @@ export const unidades = [
                     "Cotiza solo cuando sobrepasa 0,19 €/km.",
                     "Cotiza solo la cuantía que sobrepasa de 0,19 €/km."
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 4,
             },
             {
                 enunciado: "¿Tributan en el IRPF las dietas de viaje?",
@@ -545,7 +545,7 @@ export const unidades = [
                     "Solo la cuantía que no sobrepasa los límites.",
                     "Solamente la cuantia que sobrepasa los límites."
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 4,
             },
             {
                 enunciado: "¿Los tiques restaurante tributan en el IRPF?",
@@ -555,7 +555,7 @@ export const unidades = [
                     "Solamente por la cuantia que sobrepasa los limites legales.",
                     "Tributan por todo el importe."
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 3,
             },
         ],
     },
@@ -574,7 +574,7 @@ export const unidades = [
                     "Sin necesidad de alegar causa alguna.",
                     "Solo si existe una causa productiva."
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 3,
             },
             {
                 enunciado: "La movilidad funcional descendente fuera del grupo profesional puede hacerse...",
@@ -584,7 +584,7 @@ export const unidades = [
                     "Solo mientras la persona trabajadora quiera.",
                     "Solo durante el tiempo imprescindible."
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 4,
             },
             {
                 enunciado: "La movilidad geográfica temporal tiene un límite máximo de...",
@@ -594,7 +594,7 @@ export const unidades = [
                     "Nueve meses en tres años.",
                     "Doce meses en tres años."
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 4,
             },
             {
                 enunciado: "El listado que enumera las modificaciones sustanciales de las condiciones de trabajo en el Estatuto de los Trabajadores es...",
@@ -604,7 +604,7 @@ export const unidades = [
                     "Un listado cerrado en el que solo los tribunales pueden incluir nuevas condiciones.",
                     "Un listado abierto."
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 4,
             },
             {
                 enunciado: "La indemnización a una persona trabajadora que extingue su contrato al sufrir una movilidad geográfica definitiva será de...",
@@ -614,7 +614,7 @@ export const unidades = [
                     "Quince días de salario por cada año de servicio.",
                     "Veinte días de salario por cada año de servicio."
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 4,
             },
             {
                 enunciado: "La suspensión de un contrato de trabajo genera una interrupción...",
@@ -634,7 +634,7 @@ export const unidades = [
                     "Tres años.",
                     "No reserva el puesto de trabajo."
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 1,
             },
             {
                 enunciado: "Las empresas deben preavisar la extinción de los contratos de trabajo si estos han tenido una duración de...",
@@ -654,7 +654,7 @@ export const unidades = [
                     "Veinte días naturales.",
                     "No hay ningún plazo."
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 3,
             },
             {
                 enunciado: "Si un empleado o empleada falta a su trabajo, puede ser despedido mediante despido disciplinario siempre que las faltas...",
@@ -674,7 +674,7 @@ export const unidades = [
                     "Improcedente.",
                     "Procedente revisable."
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 1,
             },
             {
                 enunciado: "La falta de adaptación de una persona trabajadora a las modificaciones introducidas en su puesto de trabajo es causa de...",
@@ -694,7 +694,7 @@ export const unidades = [
                     "No es causa de despido ni sanción.",
                     "Solo puede ser sancionado con una amonestación."
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 1,
             },
             {
                 enunciado: "La extinción de un contrato por falta de adaptación a las modificaciones técnicas introducidas en el pues-to puede fundamentar un despido...",
@@ -704,7 +704,7 @@ export const unidades = [
                     "Objetivo.",
                     "Ninguna de las anteriores."
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 3,
             },
         ],
     },
@@ -723,7 +723,7 @@ export const unidades = [
                     "Un informático que trabaja como como autónomo.",
                     "Un técnico de laboratorio que trabaja en una clínica."
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 4,
             },
             {
                 enunciado: "La afiliacion de la persona trabajadora la solicita...",
@@ -743,7 +743,7 @@ export const unidades = [
                     "La jubilación.",
                     "Todas las anteriores."
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 4,
             },
             {
                 enunciado: "¿Qué organismo gestiona la prestación por desempleo?",
@@ -763,7 +763,7 @@ export const unidades = [
                     "Doce semanas.",
                     "Diez semanas."
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 1,
             },
             {
                 enunciado: "La cuantía de la prestación por nacimiento y cuidado de menor equivale a...",
@@ -773,7 +773,7 @@ export const unidades = [
                     "El 70% de la base reguladora.",
                     "El 80% de la base reguladora."
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 1,
             },
             {
                 enunciado: "Indica cuántas semanas puede anticipar la madre biológica en el inicio de la prestación por nacimiento y cuidado de menor a la fecha probable del parto.",
@@ -783,7 +783,7 @@ export const unidades = [
                     "Cuatro.",
                     "Cinco."
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 3,
             },
             {
                 enunciado: "En una incapacidad temporal derivada de una enfermedad común, el subsidio durante los tres primeros días es de...",
@@ -793,7 +793,7 @@ export const unidades = [
                     "El 60% de la base reguladora.",
                     "El 75% de la base reguladora."
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 1,
             },
             {
                 enunciado: "La incapacidad permanente total inhabilita a la per- sona trabajadora para...",
@@ -803,7 +803,7 @@ export const unidades = [
                     "Cualquier actividad en su vida profesional o personal.",
                     "Todas las afirmaciones anteriores son incorrectas."
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 1,
             },
             {
                 enunciado: "Para poder acceder a la pensión de jubilación es necesario...",
@@ -813,7 +813,7 @@ export const unidades = [
                     "Dos años deben estar incluidos dentro de los últimos cotizados, previos a la edad de jubilación.",
                     "Todas las respuestas son verdaderas."
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 4,
             },
             {
                 enunciado: "Las prestaciones por desempleo...",
@@ -823,7 +823,7 @@ export const unidades = [
                     "Solamente esta sujeta a tributacion la parte que excede del SMI.",
                     "Están sujetas a tributación en función del número de hijos o hijas."
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 1,
             },
             {
                 enunciado: "El subsidio por desempleo de nivel asistencial se concede a quienes, en situación de paro, carecen de ren- tas superiores, en computo mensual, a...",
@@ -833,7 +833,7 @@ export const unidades = [
                     "El 80% del SMI.",
                     "El 100% del IPREM."
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 1,
             },
             {
                 enunciado: "Tienen derecho a la pensión de orfandad...",
@@ -843,7 +843,7 @@ export const unidades = [
                     "Los hijos o hijas incapacitados para trabajar.",
                     "Todas las opciones son correctas."
                 ],
-                numRespuestaCorrecta: 2,
+                numRespuestaCorrecta: 4,
             },
         ],
     }
