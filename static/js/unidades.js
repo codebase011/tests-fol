@@ -716,12 +716,132 @@ export const unidades = [
         titulo: "Nombre Unidad 6",
         preguntas: [
             {
-                enunciado: "",
+                enunciado: "¿Cuál de estas personas trabajadoras se encuadra dentro del régimen general de la Seguridad Social?",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "Azucena, que cursa un ciclo formativo de Administración y Finanzas.",
+                    "Vicenta, que trabaja en un barco pesquero.",
+                    "Un informático que trabaja como como autónomo.",
+                    "Un técnico de laboratorio que trabaja en una clínica."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "La afiliacion de la persona trabajadora la solicita...",
+                posiblesRespuestas: [
+                    "La propia persona trabajadora.",
+                    "La empresa.",
+                    "El INSS",
+                    "El SEPE"
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "Indica qué prestaciones de la Seguridad Sociedad incluye la modalidad no contributiva.",
+                posiblesRespuestas: [
+                    "La asistencia sanitaria",
+                    "La incapacidad permanente.",
+                    "La jubilación.",
+                    "Todas las anteriores."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "¿Qué organismo gestiona la prestación por desempleo?",
+                posiblesRespuestas: [
+                    "La Tesorería General de la Seguridad Social.",
+                    "El Servicio Público de Empleo Estatal (SEPE)",
+                    "El Instítuto Nacional de la Seguridad Social (INSS).",
+                    "Ninguno de ellos."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "Desde el 1 de enero de 2021, la duración de la presta- ción por nacimiento y cuidado de menor, para ambos progenitores asciende a...",
+                posiblesRespuestas: [
+                    "Dieciséis semanas.",
+                    "Catorce semanas.",
+                    "Doce semanas.",
+                    "Diez semanas."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "La cuantía de la prestación por nacimiento y cuidado de menor equivale a...",
+                posiblesRespuestas: [
+                    "El 100% de la base reguladora.",
+                    "El 75% de la base reguladora.",
+                    "El 70% de la base reguladora.",
+                    "El 80% de la base reguladora."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "Indica cuántas semanas puede anticipar la madre biológica en el inicio de la prestación por nacimiento y cuidado de menor a la fecha probable del parto.",
+                posiblesRespuestas: [
+                    "Dos.",
+                    "Tres.",
+                    "Cuatro.",
+                    "Cinco."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "En una incapacidad temporal derivada de una enfermedad común, el subsidio durante los tres primeros días es de...",
+                posiblesRespuestas: [
+                    "No hay subsidio los tres primeros días.",
+                    "El 50% de la base reguladora.",
+                    "El 60% de la base reguladora.",
+                    "El 75% de la base reguladora."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "La incapacidad permanente total inhabilita a la per- sona trabajadora para...",
+                posiblesRespuestas: [
+                    "Realizar tareas de su profesión; no obstante, puede dedicarse a otras distintas.",
+                    "Realizar tareas de cualquier profesion.",
+                    "Cualquier actividad en su vida profesional o personal.",
+                    "Todas las afirmaciones anteriores son incorrectas."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "Para poder acceder a la pensión de jubilación es necesario...",
+                posiblesRespuestas: [
+                    "Tener la edad de jubilación correspondiente en cada momento.",
+                    "Haber cotizado durante quince años como minimo.",
+                    "Dos años deben estar incluidos dentro de los últimos cotizados, previos a la edad de jubilación.",
+                    "Todas las respuestas son verdaderas."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "Las prestaciones por desempleo...",
+                posiblesRespuestas: [
+                    "Están sujetas a tributación en el impuesto sobre la renta de las personas físicas.",
+                    "No estan sujetas a ninguna tributación.",
+                    "Solamente esta sujeta a tributacion la parte que excede del SMI.",
+                    "Están sujetas a tributación en función del número de hijos o hijas."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "El subsidio por desempleo de nivel asistencial se concede a quienes, en situación de paro, carecen de ren- tas superiores, en computo mensual, a...",
+                posiblesRespuestas: [
+                    "El 75% del SMI.",
+                    "El 80% del IPREM.",
+                    "El 80% del SMI.",
+                    "El 100% del IPREM."
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "Tienen derecho a la pensión de orfandad...",
+                posiblesRespuestas: [
+                    "Las personas menores de 21 años.",
+                    "Las personas menores de 25 años que no realicen ninguna actividad, siempre que sus ingresos resulten inferiores al SMI en cómputo anual.",
+                    "Los hijos o hijas incapacitados para trabajar.",
+                    "Todas las opciones son correctas."
                 ],
                 numRespuestaCorrecta: 2,
             },
