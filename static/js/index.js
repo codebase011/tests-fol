@@ -69,7 +69,7 @@ function manejarNavegacion() {
                 botonesUnidades += `
                         <li>
                             <a href="#/test/${numUnidad + 1}"  onClick="menuOnClick()">
-                                Unidad ${numUnidad + 1}
+                                Unidad ${numUnidad + 1}: ${unidades[numUnidad]["titulo"]}
                             </a>
                         </li>
                 `;
@@ -101,18 +101,24 @@ function manejarNavegacion() {
 
             if (parametro1 === "aleatorio") {
                 if (parametroNumPreguntas == undefined) {
+                    let codigoCheckBoxes = "";
+                    
+                    for (let i = 0; i < unidades.length; i++){
+                        codigoCheckBoxes += `
+                            <input type="checkbox" id="unidad${i+1}" value="${i+1}" checked>
+                            <label for="unidad${i+1}">Unidad ${i+1}</label><br>
+                        `;
+                    }
+
+                    console.log(codigoCheckBoxes);
+
                     cambiarContenido(`
                         <h1>Crear Test Aleatorio</h1>
                         <div id="menuTestAleatorio">
                             <dialog id="mensaje"></dialog>
                             <label for="numPreguntas">Nº de preguntas</label>
                             <input type="number" id="numPreguntas" value="15" size="1" min="1"><br>
-                            <input type="checkbox" id="unidad1" value="1" checked>
-                            <label for="unidad1">Unidad 1</label><br>
-                            <input type="checkbox" id="unidad2" value="2" checked>
-                            <label for="unidad2">Unidad 2</label><br>
-                            <input type="checkbox" id="unidad3" value="3" checked>
-                            <label for="unidad3">Unidad 3</label><br>
+                            ${codigoCheckBoxes}
                             <button id="crearTestAleatorio">Crear test</button>
                         </div>
                     `);
@@ -286,8 +292,14 @@ const crearTest = (numUnidad, numPreguntas, unidadesElegidas) => {
     let onClickComprobarTest = numUnidad == -1 ? `comprobarTest(-1)` : `comprobarTest(${numUnidad})`;
     let onClickResetearTest = numUnidad == -1 ? `resetearTest(-1, ${numPreguntas}, '${unidadesElegidas}')` : `resetearTest(${numUnidad}, null, null)`;
 
+    let botonVerRespuestas = `
+        <button class="botonComprobar" onClick="${onClickComprobarTest}">
+            Ver respuestas
+        </button>
+    `;
+
     let botonComprobar = `
-        <button id="botonComprobar" onClick="${onClickComprobarTest}">
+        <button class="botonComprobar" onClick="${onClickComprobarTest}">
             Comprobar
         </button>
     `;
@@ -317,6 +329,7 @@ const crearTest = (numUnidad, numPreguntas, unidadesElegidas) => {
         <h1>${tituloH1}</h1>
         <h2>${subTituloH2}</h2>
         <p>➡️ <b>${unidad.preguntas.length} preguntas</b></p>
+        ${botonVerRespuestas}${botonResetear}
         <div class="bloquedepreguntas">
             <div>${bloquesDePreguntas}</div>
             <div id="resultado"></div>
@@ -332,12 +345,20 @@ const crearTest = (numUnidad, numPreguntas, unidadesElegidas) => {
  * @param {*} numUnidad 
  *************************************************************************************************************************************************************************************************************/
 const comprobarTest = (numUnidad) => {
-    let $botonComprobar = document.querySelector('#botonComprobar');
+    let $botonesComprobar = document.querySelectorAll('.botonComprobar');
+    let $botonVerRespuestas = document.querySelector('#botonVerRespuestas');
     let preguntas = null;
     let numTotalAciertos = 0;
 
-    if ($botonComprobar != null) {
-        $botonComprobar.disabled = true;
+    if ($botonVerRespuestas != null) {
+        $botonVerRespuestas.disabled = true;
+    }
+
+    console.log($botonesComprobar);
+
+    if ($botonesComprobar != null) {
+        for (let boton of $botonesComprobar)
+        boton.disabled = true;
     }
 
     preguntas = numUnidad == -1 ? unidadPreguntasAleatorias.preguntas : unidades[numUnidad - 1].preguntas;

@@ -103,6 +103,10 @@ h3 {
     margin-top: 0;
 }
 
+li {
+    list-style: none;;
+}
+
 #resultado {
     /* background-color: rgb(238, 157, 157); */
     /* padding: 0.2em; */
@@ -123,6 +127,7 @@ button {
     font-size: 1em;
 }
 
+
 button:disabled{
     background-color: black; 
     color:gray;   
@@ -142,7 +147,9 @@ button:active {
 }
 
 
-
+/*****************************************************************************************************
+ * RESPONSIVE
+ ****************************************************************************************************/
 @media screen and (max-width: 768px) {
     body {
         margin: 0;
