@@ -138,7 +138,7 @@ export const unidades = [
      * UNIDAD 2
      **********************************************************************************************************************************************************************************************************/
     {
-        titulo: "Nombre Unidad 2",
+        titulo: "El contrato de trabajo y las modalidades de contratación",
         preguntas: [
             {
                 enunciado: "Los menores de edad... ",
@@ -277,7 +277,7 @@ export const unidades = [
      * UNIDAD 3
      **********************************************************************************************************************************************************************************************************/
     {
-        titulo: "Nombre Unidad 3",
+        titulo: "La jornada y su retribución",
         preguntas: [
             {
                 enunciado: "Indica cuál es el promedio de la jornada máxima semanal.",
@@ -415,7 +415,7 @@ export const unidades = [
      * UNIDAD 4
      **********************************************************************************************************************************************************************************************************/
     {
-        titulo: "Nombre Unidad 4",
+        titulo: "El recibo de salarios: la nómina",
         preguntas: [
             {
                 enunciado: "Las percepciones extrasalariales...",
@@ -564,7 +564,7 @@ export const unidades = [
      * UNIDAD 5
      **********************************************************************************************************************************************************************************************************/
     {
-        titulo: "Nombre Unidad 5",
+        titulo: "Modificación, suspensión y extinción del contrato de trabajo",
         preguntas: [
             {
                 enunciado: "Un empresario o empresaria puede realizar una movilidad funcional dentro del mismo grupo profesional..",
@@ -713,7 +713,7 @@ export const unidades = [
      * UNIDAD 6
      **********************************************************************************************************************************************************************************************************/
     {
-        titulo: "Nombre Unidad 6",
+        titulo: "El sistema de la Seguridad Social",
         preguntas: [
             {
                 enunciado: "¿Cuál de estas personas trabajadoras se encuadra dentro del régimen general de la Seguridad Social?",
