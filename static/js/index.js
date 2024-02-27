@@ -62,25 +62,29 @@ function manejarNavegacion() {
 
     switch (true) {
         case hash === '#/':
-            let botonesUnidades = '<div class="bloque_unidades_disponibles">';
+            let enlacesUnidades = '<div class="bloque_unidades_disponibles">';
             
 
             for (let numUnidad = 0; numUnidad < unidades.length; numUnidad++) {
-                botonesUnidades += `
+                enlacesUnidades += `
                         <li>
                             <a href="#/test/${numUnidad + 1}"  onClick="menuOnClick()">
-                                Unidad ${numUnidad + 1}: ${unidades[numUnidad]["titulo"]}
+                                Unidad ${numUnidad + 1}: ${unidades[numUnidad].titulo}
                             </a>
                         </li>
                 `;
             }
-            botonesUnidades += "</div>";
+            enlacesUnidades += "</div>";
 
             cambiarContenido(`
                 <h1>Tests de FOL</h1>
                 <p>Test resueltos y para practicar del libro dde <b>FOL</b> de la editorial <b>Mc Graw Hill</b></p>
                 <p>Unidades disponibles: 1-${unidades.length}</p>
-                ${botonesUnidades}
+                ${enlacesUnidades}
+                <figure>
+                    <a href="https://github.com/codebase011/tests-fol" ><img id="github_logo" src="static/imgs/github_logo2.png" alt="github_logo"></a>
+                    <figcaption>Repositorio github</figcaption>
+                </figure>
             `);
 
             break;
