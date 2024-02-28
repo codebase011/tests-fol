@@ -78,11 +78,11 @@ function manejarNavegacion() {
 
             cambiarContenido(`
                 <h1>Tests de FOL</h1>
-                <p>Test resueltos y para practicar del libro dde <b>FOL</b> de la editorial <b>Mc Graw Hill</b></p>
+                <p>Test resueltos del libro de <b>FOL</b> de la editorial <b>Mc Graw Hill</b></p>
                 <p>Unidades disponibles: 1-${unidades.length}</p>
                 ${enlacesUnidades}
                 <figure>
-                    <a href="https://github.com/codebase011/tests-fol" ><img id="github_logo" src="static/imgs/github_logo2.png" alt="github_logo"></a>
+                    <a href="https://github.com/codebase011/tests-fol"><img id="github_logo" src="static/imgs/github_logo2.png" alt="github_logo"></a>
                     <figcaption>Repositorio github</figcaption>
                 </figure>
             `);
