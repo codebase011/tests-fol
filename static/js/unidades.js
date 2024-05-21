@@ -1046,7 +1046,7 @@ export const unidades = [
                 numRespuestaCorrecta: 1,
             },
             {
-                enunciado: " La subcontratación es un mecanismo de organización empresarial que..",
+                enunciado: "La subcontratación es un mecanismo de organización empresarial que..",
                 posiblesRespuestas: [
                     "",
                     "Crea una red de empresas pequeñas que hacen una parte del trabajo de otra más grande",
