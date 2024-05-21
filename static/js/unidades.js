@@ -1,7 +1,10 @@
 /*************************************************************************************************************************************************************************************************************
- * DEFINICION DE LAS UNIDADES DEL TEMARIO
- * Array de unidades con un campo "nombre" que contiene otro array con las preguntas, posibles Respuestas
- * y el num. de respuesta correcta.
+* Manuel Alejandro Sánchez Garcia. 
+* DEFINICION DE LAS UNIDADES DEL TEMARIO
+ * La constante "unidades" contiene un array con un objeto por unidad.
+ * Cada objeto que representa a una unidad contiene a su vez un "titulo" y un array "preguntas"
+ * El array "preguntas" contiene a su vez distintos objetos.
+ * Cada objeto de este array representa una pregunta en concreto, con su enunciado, un array de posibles respuestas y el num. de respuesta correcta.
  *************************************************************************************************************************************************************************************************************/
 
 export const unidades = [
@@ -856,9 +859,9 @@ export const unidades = [
             {
                 enunciado: "La libertad sindical es un derecho constitucional reconocido en el artículo 28 de la Constitución que implica afiliarte al sindicato...",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
+                    "Que te diga la empresa.",
+                    "Que sea el más repreentativo",
+                    "Que te aconsejen tus compañeros y compañeras",
                     "Que sea de tu libre elección."
                 ],
                 numRespuestaCorrecta: 4,
@@ -866,9 +869,9 @@ export const unidades = [
             {
                 enunciado: "Indica cuáles de los siguientes colectivos no tienen derecho a la libre sindicación:",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
+                    "Personas que integran la magistratura y fiscales mientras estén en activo",
+                    "Integrantes de las Fuerzas Armadas",
+                    "Integrantes de la Guardia Civil",
                     "Todas las opciones son verdaderas."
                 ],
                 numRespuestaCorrecta: 4,
@@ -877,19 +880,19 @@ export const unidades = [
                 enunciado: "La asociación permanente de personas trabajadoras para la representación y mejora de sus instereses profesionales y de sus condiciones de vida son...",
                 posiblesRespuestas: [
                     "Los sindicatos.",
-                    "b",
-                    "c",
-                    "d"
+                    "Las asociaciones empresariales.",
+                    "Las asociaciones vecinales.",
+                    "Las asociaciones de amigos."
                 ],
                 numRespuestaCorrecta: 1,
             },
             {
                 enunciado: "El comité de empresa representa a...",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    "A toda la plantilla de la empresa"
+                    "La empresa.",
+                    "Las personas trabajadoras afiliadas a los sindicatos.",
+                    "La empresa y las personas trabajadoras.",
+                    "A toda la plantilla de la empresa."
                 ],
                 numRespuestaCorrecta: 4,
             },
@@ -897,9 +900,9 @@ export const unidades = [
                 enunciado: "Los delegados de personal son representantes de las personas trabajadoras en empresas que tengan...",
                 posiblesRespuestas: [
                     "Más de diez y menos de 50",
-                    "",
-                    "",
-                    ""
+                    "Más de 51",
+                    "Entre 51 y 100.",
+                    "Más de 400."
                 ],
                 numRespuestaCorrecta: 1,
             },
