@@ -1410,134 +1410,144 @@ export const unidades = [
         titulo: "Búsqueda activa de empleo",
         preguntas: [
             {
-                enunciado: "",
+                enunciado: "Son competencias profesionales...",
+                posiblesRespuestas: [
+                    "",
+                    "Las destrezas y habilidades.",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "Las competencias personales...",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "Sirven para cualquier puesto.",
+                    ""
+                ],
+                numRespuestaCorrecta: 3,
+            },
+            {
+                enunciado: "La realización del autoanálisis te ayudará a...",
                 posiblesRespuestas: [
                     "",
                     "",
                     "",
-                    ""
+                    "Todas las respuestas son ciertas."
                 ],
                 numRespuestaCorrecta: 4,
             },
             {
-                enunciado: "",
+                enunciado: "El plan de empresa es..",
+                posiblesRespuestas: [
+                    "El documento en el que se plasma el proyecto empresarial.",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 1,
+            },
+            {
+                enunciado: "El networking no consiste en...",
+                posiblesRespuestas: [
+                    "",
+                    "Contactar con personas conocidas y desconocidas para establecer relaciones personales.",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "Para hacer networking, la red más adecuada es..",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "LinkedIn",
+                    ""
+                ],
+                numRespuestaCorrecta: 3,
+            },
+            {
+                enunciado: "A través del portal del Sistema Nacional de Empleo, puedes acceder a..",
                 posiblesRespuestas: [
                     "",
                     "",
                     "",
-                    ""
+                    "Todas las respuestas son ciertas."
                 ],
                 numRespuestaCorrecta: 4,
             },
             {
-                enunciado: "",
+                enunciado: "La formación profesional para el empleo acredita las competencias adquiridas mediante..",
+                posiblesRespuestas: [
+                    "",
+                    "Certificados de profesionalidad.",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "Los certificados de profesionalidad tienen validez en...",
                 posiblesRespuestas: [
                     "",
                     "",
                     "",
-                    ""
+                    "Todo el territorio nacional."
                 ],
                 numRespuestaCorrecta: 4,
             },
             {
-                enunciado: "",
+                enunciado: "No es una clasificación de los empleados públicos..",
                 posiblesRespuestas: [
                     "",
                     "",
                     "",
-                    ""
+                    "Funcionarios laborales."
                 ],
                 numRespuestaCorrecta: 4,
             },
             {
-                enunciado: "",
+                enunciado: "¿Se puede acceder a la universidad desde los ciclos formativos",
+                posiblesRespuestas: [
+                    "",
+                    "Preferentemente, a los grados relacionados con los estudios de FP realizados",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "El curriculum vitae Europass...",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "Es un modelo de currículum único para toda la UE.",
+                    ""
+                ],
+                numRespuestaCorrecta: 3,
+            },
+            {
+                enunciado: "Mediante Eures, puedes...",
                 posiblesRespuestas: [
                     "",
                     "",
                     "",
-                    ""
+                    "Todas las respuestas son verdaderas"
                 ],
                 numRespuestaCorrecta: 4,
             },
             {
-                enunciado: "",
+                enunciado: "Mediante Ploteus, no puedes...",
                 posiblesRespuestas: [
                     "",
-                    "",
+                    "Crear un currículum vitae europeo.",
                     "",
                     ""
                 ],
-                numRespuestaCorrecta: 4,
-            },
-            {
-                enunciado: "",
-                posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                numRespuestaCorrecta: 4,
-            },
-            {
-                enunciado: "",
-                posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                numRespuestaCorrecta: 4,
-            },
-            {
-                enunciado: "",
-                posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                numRespuestaCorrecta: 4,
-            },
-            {
-                enunciado: "",
-                posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                numRespuestaCorrecta: 4,
-            },
-            {
-                enunciado: "",
-                posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                numRespuestaCorrecta: 4,
-            },
-            {
-                enunciado: "",
-                posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                numRespuestaCorrecta: 4,
-            },
-            {
-                enunciado: "",
-                posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                numRespuestaCorrecta: 4,
+                numRespuestaCorrecta: 2,
             },
             
         ],
