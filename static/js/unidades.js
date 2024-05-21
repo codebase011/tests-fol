@@ -1172,92 +1172,102 @@ export const unidades = [
                 numRespuestaCorrecta: 4,
             },
             {
-                enunciado: "",
+                enunciado: "Las personas trabajadoras de un círculo de calidad...",
                 posiblesRespuestas: [
-                    "",
+                    "Suelen tener el mismo nivel jerárquico.",
                     "",
                     "",
                     ""
                 ],
-                numRespuestaCorrecta: 4,
+                numRespuestaCorrecta: 1,
             },
             {
-                enunciado: "",
+                enunciado: "Una tormenta de ideas es un método de trabajo en equipo que busca..",
                 posiblesRespuestas: [
-                    "",
+                    "Generar ideas",
                     "",
                     "",
                     ""
                 ],
-                numRespuestaCorrecta: 4,
+                numRespuestaCorrecta: 1,
             },
             {
-                enunciado: "",
+                enunciado: "Los equipos de alto rendimiento...",
                 posiblesRespuestas: [
                     "",
+                    "",
+                    "Reúnen a un conjunto de personas para lograr las cotas más altas de productividad, creatividad e innovación.",
+                    ""
+                ],
+                numRespuestaCorrecta: 3,
+            },
+            {
+                enunciado: "La comunicación no violenta..",
+                posiblesRespuestas: [
+                    "Ayuda en la solución de los conflictos",
                     "",
                     "",
                     ""
                 ],
-                numRespuestaCorrecta: 4,
+                numRespuestaCorrecta: 1,
             },
             {
-                enunciado: "",
+                enunciado: "Un equipo de trabajo interfuncional tiene como función principal...",
                 posiblesRespuestas: [
                     "",
                     "",
                     "",
-                    ""
+                    "Poner en marcha proyectos en los que intervienen distintas secciones"
                 ],
                 numRespuestaCorrecta: 4,
             },
             {
-                enunciado: "",
+                enunciado: "La inteligencia emocional está formada por..",
                 posiblesRespuestas: [
                     "",
                     "",
                     "",
-                    ""
+                    "Las competencias personales que completan los estudios y las capacidades profesionales"
                 ],
                 numRespuestaCorrecta: 4,
             },
             {
-                enunciado: "",
+                enunciado: "Según la teoria de Belbin, en todos los equipos...",
                 posiblesRespuestas: [
-                    "",
+                    "Hay nueve roles",
                     "",
                     "",
                     ""
                 ],
-                numRespuestaCorrecta: 4,
+                numRespuestaCorrecta: 1,
             },
             {
-                enunciado: "",
+                enunciado: "El role playing...",
                 posiblesRespuestas: [
                     "",
+                    "",
+                    "Es una técnica que pide a los integrantes del equipo que representen una situación imaginaria como si fuera real",
+                    ""
+                ],
+                numRespuestaCorrecta: 3,
+            },
+            {
+                enunciado: "Entre las utilidades de la técnica del estudio de casos, está su aplicación para..",
+                posiblesRespuestas: [
+                    "Analizar y buscar soluciones a un problema real.",
                     "",
                     "",
                     ""
                 ],
-                numRespuestaCorrecta: 4,
+                numRespuestaCorrecta: 1,
             },
             {
-                enunciado: "",
+                enunciado: "El método de proyectos permite..",
                 posiblesRespuestas: [
+                    ".",
                     "",
                     "",
-                    "",
-                    ""
-                ],
-                numRespuestaCorrecta: 4,
-            },
-            {
-                enunciado: "",
-                posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "Formular un proyecto referido a una hipotética situación futura"
                 ],
                 numRespuestaCorrecta: 4,
             },
@@ -1271,136 +1281,126 @@ export const unidades = [
         titulo: "Los conflictos en la empresa",
         preguntas: [
             {
-                enunciado: "",
+                enunciado: "Los problemas técnicos...",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "Puden afectar a la viabilidad de la empresa",
+                    ""
+                ],
+                numRespuestaCorrecta: 3,
+            },
+            {
+                // En las soluciones estan la a y la d marcadas, pero segun el libro creo que es la A 
+                enunciado: "Algunas de las causas que pueden provocar conflictos son...",
+                posiblesRespuestas: [
+                    "Un reparto poco nítido del trabajo.",
+                    "",
+                    "",
+                    "Recibir órdenes diferentes de dos personas distintas"
+                ],
+                numRespuestaCorrecta: 1,
+            },
+            {
+                enunciado: "Una controversia clara indica que..",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "Las partes comunican que existe un problema que hay que resolver.",
+                    ""
+                ],
+                numRespuestaCorrecta: 3,
+            },
+            {
+                enunciado: "El conflicto latente es aquel que...",
+                posiblesRespuestas: [
+                    "No se manifiesta expresamente, pero existe",
+                    "",
+                    "",
+                    "d"
+                ],
+                numRespuestaCorrecta: 1,
+            },
+            {
+                enunciado: "Son factores externos al sujeto en la toma de decisiones...",
+                posiblesRespuestas: [
+                    "",
+                    "El riesgo y las presiones",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "Se entiende por actitud...",
                 posiblesRespuestas: [
                     "",
                     "",
                     "",
-                    ""
+                    "La manera en la que nuestro ánimo o nuestra mente se enfrentan a una situación."
                 ],
                 numRespuestaCorrecta: 4,
             },
             {
-                enunciado: "",
+                enunciado: "Un conflicto negativo o destructivo en una empresa...",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "Desestabiliza las funciones y las tareas en la empresa",
+                    ""
+                ],
+                numRespuestaCorrecta: 3,
+            },
+            {
+                enunciado: "En la estrategia negociadora cooperativa, los sujetos...",
+                posiblesRespuestas: [
+                    "Tienden a colaborar para lograr una solución.",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 1,
+            },
+            {
+                enunciado: "La última fase de un proceso de negociación se denomina fase de cierre, y en ella..",
                 posiblesRespuestas: [
                     "",
                     "",
                     "",
-                    ""
+                    "Se llega a un acuerdo o no."
                 ],
                 numRespuestaCorrecta: 4,
             },
             {
-                enunciado: "",
+                enunciado: " Cuando, en una negociación, una de las partes utiliza una estrategia de competición, se entiende que...",
                 posiblesRespuestas: [
                     "",
                     "",
                     "",
-                    ""
+                    "La actitud que se va a mantener en el proceso será básicamente defensiva"
                 ],
                 numRespuestaCorrecta: 4,
             },
             {
-                enunciado: "",
+                enunciado: "Una táctica negociadora puede ser...",
                 posiblesRespuestas: [
                     "",
                     "",
                     "",
-                    ""
+                    "Todas las anteriores son tácticas negociadoras"
                 ],
                 numRespuestaCorrecta: 4,
             },
             {
-                enunciado: "",
+                enunciado: "Si las partes de un conflicto se someten a un arbitraje para lograr la resolución del mismo, deben saber que la persona encargada del arbitraje..",
                 posiblesRespuestas: [
                     "",
-                    "",
+                    "Dictará la solución por medio de un laudo de obligado cumplimiento.",
                     "",
                     ""
                 ],
-                numRespuestaCorrecta: 4,
-            },
-            {
-                enunciado: "",
-                posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                numRespuestaCorrecta: 4,
-            },
-            {
-                enunciado: "",
-                posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                numRespuestaCorrecta: 4,
-            },
-            {
-                enunciado: "",
-                posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                numRespuestaCorrecta: 4,
-            },
-            {
-                enunciado: "",
-                posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                numRespuestaCorrecta: 4,
-            },
-            {
-                enunciado: "",
-                posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                numRespuestaCorrecta: 4,
-            },
-            {
-                enunciado: "",
-                posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                numRespuestaCorrecta: 4,
-            },
-            {
-                enunciado: "",
-                posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                numRespuestaCorrecta: 4,
-            },
-            {
-                enunciado: "",
-                posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                numRespuestaCorrecta: 4,
-            },
-            
+                numRespuestaCorrecta: 2,
+            },            
         ]
     },
     /**********************************************************************************************************************************************************************************************************
