@@ -851,15 +851,830 @@ export const unidades = [
      * UNIDAD 7
      **********************************************************************************************************************************************************************************************************/
     {
-        titulo: "El sistema de la Seguridad Social",
+        titulo: "Participación de las personas trabajadoras en la empresa",
         preguntas: [
             {
-                enunciado: "¿Cuál de estas personas trabajadoras se encuadra dentro del régimen general de la Seguridad Social?",
+                enunciado: "La libertad sindical es un derecho constitucional reconocido en el artículo 28 de la Constitución que implica afiliarte al sindicato...",
                 posiblesRespuestas: [
-                    "Azucena, que cursa un ciclo formativo de Administración y Finanzas.",
-                    "Vicenta, que trabaja en un barco pesquero.",
-                    "Un informático que trabaja como como autónomo.",
-                    "Un técnico de laboratorio que trabaja en una clínica."
+                    "",
+                    "",
+                    "",
+                    "Que sea de tu libre elección."
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "Indica cuáles de los siguientes colectivos no tienen derecho a la libre sindicación:",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    "Todas las opciones son verdaderas."
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "La asociación permanente de personas trabajadoras para la representación y mejora de sus instereses profesionales y de sus condiciones de vida son...",
+                posiblesRespuestas: [
+                    "Los sindicatos.",
+                    "b",
+                    "c",
+                    "d"
+                ],
+                numRespuestaCorrecta: 1,
+            },
+            {
+                enunciado: "El comité de empresa representa a...",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    "A toda la plantilla de la empresa"
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "Los delegados de personal son representantes de las personas trabajadoras en empresas que tengan...",
+                posiblesRespuestas: [
+                    "Más de diez y menos de 50",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 1,
+            },
+            {
+                enunciado: "¿Qué número mínimo de personas trabajadoras debe tener una empresa para elegir un comité de empresa?",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "Cincuenta",
+                    ""
+                ],
+                numRespuestaCorrecta: 3,
+            },
+            {
+                enunciado: "El sindicato más representativo en una comunidad autónoma es aquel que ha obtenido al menos...",
+                posiblesRespuestas: [
+                    "El 15% de los representantes en su comunidad autónoma, con un mínimo de 1500",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 1,
+            },
+            {
+                enunciado: "Si la empresa quiere despedir a un representante de las personas trabajadoras por falta grave o muy grave, debe..",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "Abrirle un expediente contradictorio antes de sancionarle.",
+                    ""
+                ],
+                numRespuestaCorrecta: 3,
+            },
+            {
+                enunciado: "En una empresa se ha convocado una huelga legalmente. Las personas que deciden secundarla, ¿están obligadas a comunicarlo a la empresa previamente?",
+                posiblesRespuestas: [
+                    "Sí",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 1,
+            },
+            {
+                enunciado: "¿Se puede pactar en un convenio la prohibición de ejercer el derecho a la huelga para modificar dicho convenio mientras está vigente?",
+                posiblesRespuestas: [
+                    "Si, se puede pactar y garantizar la paz laboral renunciando las personas trabajadoras al derecho a huelga durante la vigencia del convenio",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 1,
+            },
+            {
+                enunciado: "En una huelga, ¿pueden existir piquetes informativos?",
+                posiblesRespuestas: [
+                    "Sí",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 1,
+            },
+            {
+                enunciado: "El cierre patronal es posible para que la empresa pueda..",
+                posiblesRespuestas: [
+                    "",
+                    "Defenderse de una huelga que causa graves daños a las personas o a las cosas.",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "Durante una huelga, la empresa...",
+                posiblesRespuestas: [
+                    "No puede contratar a nuevo personal para sustituir a las personas trabajadoras en huelga.",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 1,
+            },
+            
+        ],
+    },
+    /**********************************************************************************************************************************************************************************************************
+     * UNIDAD 8
+     **********************************************************************************************************************************************************************************************************/
+    {
+        titulo: "Participación de las personas trabajadoras en la empresa",
+        preguntas: [
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            
+        ],
+    },
+    /**********************************************************************************************************************************************************************************************************
+     * UNIDAD 9
+     **********************************************************************************************************************************************************************************************************/
+    {
+        titulo: "Participación de las personas trabajadoras en la empresa",
+        preguntas: [
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            
+        ],
+    },
+    /**********************************************************************************************************************************************************************************************************
+     * UNIDAD 10
+     **********************************************************************************************************************************************************************************************************/
+    {
+        titulo: "Participación de las personas trabajadoras en la empresa",
+        preguntas: [
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            
+        ]
+    },
+    /**********************************************************************************************************************************************************************************************************
+     * UNIDAD 11
+     **********************************************************************************************************************************************************************************************************/
+    {
+        titulo: "Participación de las personas trabajadoras en la empresa",
+        preguntas: [
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            
+        ],
+    },
+    /**********************************************************************************************************************************************************************************************************
+     * UNIDAD 12
+     **********************************************************************************************************************************************************************************************************/
+    {
+        titulo: "Participación de las personas trabajadoras en la empresa",
+        preguntas: [
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    ""
                 ],
                 numRespuestaCorrecta: 4,
             },
