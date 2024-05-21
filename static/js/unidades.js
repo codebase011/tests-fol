@@ -654,7 +654,7 @@ export const unidades = [
                     "Veinte días naturales.",
                     "No hay ningún plazo."
                 ],
-                numRespuestaCorrecta: 3,
+                numRespuestaCorrecta: 2,
             },
             {
                 enunciado: "Si un empleado o empleada falta a su trabajo, puede ser despedido mediante despido disciplinario siempre que las faltas...",
@@ -990,137 +990,137 @@ export const unidades = [
      * UNIDAD 8
      **********************************************************************************************************************************************************************************************************/
     {
-        titulo: "Participación de las personas trabajadoras en la empresa",
+        titulo: "La organización del trabajo y los entornos emergentes",
         preguntas: [
             {
-                enunciado: "",
+                enunciado: "La tecnoestructura, en el sistema de Mintzberg, permite...",
+                posiblesRespuestas: [
+                    "",
+                    "Realizar los sistemas de normalización.",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "El sistema artesanal de producción se caracteriza por..",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "Elaborar objetos de lujo y exclusivos.",
+                    ""
+                ],
+                numRespuestaCorrecta: 3,
+            },
+            {
+                enunciado: "El sistema de producción toyotista...",
+                posiblesRespuestas: [
+                    "",
+                    "Produce según la demanda de la clientela",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "La estructura empresarial en trébol organiza parte de sus tareas para que sean realizadas por...",
+                posiblesRespuestas: [
+                    "",
+                    "Los clientes.",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "Las modernas estructuras empresariales en red o en malla...",
+                posiblesRespuestas: [
+                    "Permiten una mayor flexibilidad en las empresas.",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 1,
+            },
+            {
+                enunciado: " La subcontratación es un mecanismo de organización empresarial que..",
+                posiblesRespuestas: [
+                    "",
+                    "Crea una red de empresas pequeñas que hacen una parte del trabajo de otra más grande",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "Se denomina off shoring la técnica que emplean las empresas para..",
+                posiblesRespuestas: [
+                    "Deslocalizar su producción.",
+                    "",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 1,
+            },
+            {
+                enunciado: "Una estructura empresarial virtual significa que...",
                 posiblesRespuestas: [
                     "",
                     "",
                     "",
-                    ""
+                    "Diversas empresas ponen en común lo que mejor saben hacer"
                 ],
                 numRespuestaCorrecta: 4,
             },
             {
-                enunciado: "",
+                enunciado: "Entre los elementos del entorno sobre los que las empresas no tienen control se encuentran..",
                 posiblesRespuestas: [
                     "",
                     "",
                     "",
-                    ""
+                    "Todos los anteriores."
                 ],
                 numRespuestaCorrecta: 4,
             },
             {
-                enunciado: "",
+                enunciado: "La flexibilidad productiva supone para las empresas la capacidad para..",
                 posiblesRespuestas: [
                     "",
                     "",
                     "",
-                    ""
+                    "Producir nuevos productos o adaptar las cantidades que se fabrican del mismo artículo"
                 ],
                 numRespuestaCorrecta: 4,
             },
             {
-                enunciado: "",
+                enunciado: "Entre las nuevas amenazas globales a las que tienen que hacer frente las empresas y las personas trabajadoras se encuentran...",
                 posiblesRespuestas: [
                     "",
                     "",
                     "",
-                    ""
+                    "Todas las opciones anteriores son correctas"
                 ],
                 numRespuestaCorrecta: 4,
             },
             {
-                enunciado: "",
+                enunciado: "La polivalencia funcional de las personas permite..",
                 posiblesRespuestas: [
-                    "",
+                    "Participar en diferentes tareas y proyectos",
                     "",
                     "",
                     ""
                 ],
-                numRespuestaCorrecta: 4,
+                numRespuestaCorrecta: 1,
             },
             {
-                enunciado: "",
+                enunciado: "El teletrabajo permite a las personas trabajadoras..",
                 posiblesRespuestas: [
                     "",
-                    "",
+                    "Trabajar desde su domicilio utilizando las nuevas tecnologías",
                     "",
                     ""
                 ],
-                numRespuestaCorrecta: 4,
-            },
-            {
-                enunciado: "",
-                posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                numRespuestaCorrecta: 4,
-            },
-            {
-                enunciado: "",
-                posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                numRespuestaCorrecta: 4,
-            },
-            {
-                enunciado: "",
-                posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                numRespuestaCorrecta: 4,
-            },
-            {
-                enunciado: "",
-                posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                numRespuestaCorrecta: 4,
-            },
-            {
-                enunciado: "",
-                posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                numRespuestaCorrecta: 4,
-            },
-            {
-                enunciado: "",
-                posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                numRespuestaCorrecta: 4,
-            },
-            {
-                enunciado: "",
-                posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                numRespuestaCorrecta: 4,
+                numRespuestaCorrecta: 2,
             },
             
         ],
@@ -1129,7 +1129,7 @@ export const unidades = [
      * UNIDAD 9
      **********************************************************************************************************************************************************************************************************/
     {
-        titulo: "Participación de las personas trabajadoras en la empresa",
+        titulo: "Los equipos de trabajo",
         preguntas: [
             {
                 enunciado: "",
@@ -1268,7 +1268,7 @@ export const unidades = [
      * UNIDAD 10
      **********************************************************************************************************************************************************************************************************/
     {
-        titulo: "Participación de las personas trabajadoras en la empresa",
+        titulo: "Los conflictos en la empresa",
         preguntas: [
             {
                 enunciado: "",
@@ -1407,7 +1407,7 @@ export const unidades = [
      * UNIDAD 11
      **********************************************************************************************************************************************************************************************************/
     {
-        titulo: "Participación de las personas trabajadoras en la empresa",
+        titulo: "Búsqueda activa de empleo",
         preguntas: [
             {
                 enunciado: "",
@@ -1546,7 +1546,7 @@ export const unidades = [
      * UNIDAD 12
      **********************************************************************************************************************************************************************************************************/
     {
-        titulo: "Participación de las personas trabajadoras en la empresa",
+        titulo: "Selección de personal",
         preguntas: [
             {
                 enunciado: "",
