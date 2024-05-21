@@ -1563,115 +1563,105 @@ export const unidades = [
                 posiblesRespuestas: [
                     "",
                     "",
+                    "Citar los documentos que acompañan a la carta",
+                    ""
+                ],
+                numRespuestaCorrecta: 3,
+            },
+            {
+                enunciado: "No es una forma correcta de comenzar la carta de presentación...",
+                posiblesRespuestas: [
+                    "",
+                    "Habiendo conocido...",
                     "",
                     ""
                 ],
-                numRespuestaCorrecta: 4,
+                numRespuestaCorrecta: 2,
             },
             {
-                enunciado: "",
+                enunciado: "Se puede afirmar que..",
                 posiblesRespuestas: [
                     "",
                     "",
-                    "",
+                    "Las cartas de presentación deben estar concebidas y redactadas para cada puesto de trabajo",
                     ""
                 ],
-                numRespuestaCorrecta: 4,
+                numRespuestaCorrecta: 3,
             },
             {
-                enunciado: "",
+                enunciado: "Las cartas de presentación..",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                numRespuestaCorrecta: 4,
-            },
-            {
-                enunciado: "",
-                posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                numRespuestaCorrecta: 4,
-            },
-            {
-                enunciado: "",
-                posiblesRespuestas: [
-                    "",
+                    "Deben ir personalizadas.",
                     "",
                     "",
                     ""
                 ],
-                numRespuestaCorrecta: 4,
+                numRespuestaCorrecta: 1,
             },
             {
-                enunciado: "",
+                enunciado: "El currículum ha de realizarse...",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "De manera sintética y clara.",
+                    ""
+                ],
+                numRespuestaCorrecta: 3,
+            },
+            {
+                enunciado: "El currículum debe contener...",
+                posiblesRespuestas: [
+                    "",
+                    "Méritos objetivos",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "Son instrumentos de selección imprescindibles..",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "Las entrevistas.",
+                    ""
+                ],
+                numRespuestaCorrecta: 3,
+            },
+            {
+                enunciado: "Para preparar una entrevista no es conveniente...",
                 posiblesRespuestas: [
                     "",
                     "",
                     "",
-                    ""
+                    "Improvisar, como un signo de agilidad mental"
                 ],
                 numRespuestaCorrecta: 4,
             },
             {
-                enunciado: "",
+                enunciado: "En una entrevista se valora positivamente...",
                 posiblesRespuestas: [
                     "",
                     "",
                     "",
-                    ""
+                    "No hacer valoraciones morales"
                 ],
                 numRespuestaCorrecta: 4,
             },
             {
-                enunciado: "",
+                enunciado: "En las entrevistas de trabajo, ¿qué gesto se interpretará de una forma positiva?",
                 posiblesRespuestas: [
                     "",
-                    "",
+                    "Sostener la mirada ante preguntas difíciles.",
                     "",
                     ""
                 ],
-                numRespuestaCorrecta: 4,
+                numRespuestaCorrecta: 2,
             },
             {
-                enunciado: "",
+                enunciado: "Durante la entrevista, es una actitud acertada..",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                numRespuestaCorrecta: 4,
-            },
-            {
-                enunciado: "",
-                posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                numRespuestaCorrecta: 4,
-            },
-            {
-                enunciado: "",
-                posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                numRespuestaCorrecta: 4,
-            },
-            {
-                enunciado: "",
-                posiblesRespuestas: [
-                    "",
+                    "Mirar a los ojos al entrevistador o la entrevistadora",
                     "",
                     "",
                     ""
@@ -1679,14 +1669,44 @@ export const unidades = [
                 numRespuestaCorrecta: 4,
             },
             {
-                enunciado: "",
+                enunciado: "La cabeza inclinada hacia un lado puede indicar..",
                 posiblesRespuestas: [
                     "",
                     "",
                     "",
-                    ""
+                    "Aburrimiento"
                 ],
                 numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "No es una actitud acertada durante la entrevista...",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    "Todas las anteriores son actitudes erróneas."
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "Se valorará positivamente que en una entrevista de trabajo se pregunte por...",
+                posiblesRespuestas: [
+                    "",
+                    "",
+                    "",
+                    "Todas son preguntas acertadas"
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            {
+                enunciado: "Una entrevista de incidentes críticos indaga sobre..",
+                posiblesRespuestas: [
+                    "",
+                    "Las competencias del candidato o la candidata.",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 2,
             },
             
         ],
