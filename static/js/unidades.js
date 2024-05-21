@@ -1,5 +1,5 @@
 /*************************************************************************************************************************************************************************************************************
- * aManuel Alejandro Sánchez Garcia. 
+ * aManuel Alejandro Sánchez Garcia. Hola Florito 
  * DEFINICION DE LAS UNIDADES DEL TEMARIO
  * La constante "unidades" contiene un array con un objeto por unidad.
  * Cada objeto que representa a una unidad contiene a su vez un "titulo" y un array "preguntas"
