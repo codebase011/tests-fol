@@ -1,5 +1,5 @@
 /*************************************************************************************************************************************************************************************************************
- * Manuel Alejandro Sánchez Garcia. 
+ * aManuel Alejandro Sánchez Garcia. 
  * DEFINICION DE LAS UNIDADES DEL TEMARIO
  * La constante "unidades" contiene un array con un objeto por unidad.
  * Cada objeto que representa a una unidad contiene a su vez un "titulo" y un array "preguntas"
@@ -909,30 +909,30 @@ export const unidades = [
             {
                 enunciado: "¿Qué número mínimo de personas trabajadoras debe tener una empresa para elegir un comité de empresa?",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "Cincuenta",
-                    ""
+                    "Veinte.",
+                    "Cuarenta y nueve.",
+                    "Cincuenta.",
+                    "Cien."
                 ],
                 numRespuestaCorrecta: 3,
             },
             {
                 enunciado: "El sindicato más representativo en una comunidad autónoma es aquel que ha obtenido al menos...",
                 posiblesRespuestas: [
-                    "El 15% de los representantes en su comunidad autónoma, con un mínimo de 1500",
-                    "",
-                    "",
-                    ""
+                    "El 15% de los representantes en su comunidad autónoma, con un mínimo de 1500.",
+                    "El 30% de los representantes en tres comunidades.",
+                    "El 10% de los representantes en todo el Estado.",
+                    "No existe una cantidad mínima necesaria."
                 ],
                 numRespuestaCorrecta: 1,
             },
             {
                 enunciado: "Si la empresa quiere despedir a un representante de las personas trabajadoras por falta grave o muy grave, debe..",
                 posiblesRespuestas: [
-                    "",
-                    "",
+                    "Comunicarle el despido con 60 días de antelación.",
+                    "No se le puede despedir.",
                     "Abrirle un expediente contradictorio antes de sancionarle.",
-                    ""
+                    "Debe esperar un año."
                 ],
                 numRespuestaCorrecta: 3,
             },
@@ -940,9 +940,9 @@ export const unidades = [
                 enunciado: "En una empresa se ha convocado una huelga legalmente. Las personas que deciden secundarla, ¿están obligadas a comunicarlo a la empresa previamente?",
                 posiblesRespuestas: [
                     "Sí",
-                    "",
-                    "",
-                    ""
+                    "No.",
+                    "Solamente en las huelgas generales.",
+                    "Ninguna opción es verdadera."
                 ],
                 numRespuestaCorrecta: 1,
             },
@@ -950,9 +950,9 @@ export const unidades = [
                 enunciado: "¿Se puede pactar en un convenio la prohibición de ejercer el derecho a la huelga para modificar dicho convenio mientras está vigente?",
                 posiblesRespuestas: [
                     "Si, se puede pactar y garantizar la paz laboral renunciando las personas trabajadoras al derecho a huelga durante la vigencia del convenio",
-                    "",
-                    "",
-                    ""
+                    "No, la huelga es un derecho irrenunciable.",
+                    "En un convenio no se puede incluir este pacto.",
+                    "Solamente en determinados convenios."
                 ],
                 numRespuestaCorrecta: 1,
             },
@@ -960,19 +960,19 @@ export const unidades = [
                 enunciado: "En una huelga, ¿pueden existir piquetes informativos?",
                 posiblesRespuestas: [
                     "Sí",
-                    "",
-                    "",
-                    ""
+                    "No.",
+                    "Sí, siempre que o autorice la empresa.",
+                    "Toddas las oopcines son incorrectas."
                 ],
                 numRespuestaCorrecta: 1,
             },
             {
                 enunciado: "El cierre patronal es posible para que la empresa pueda..",
                 posiblesRespuestas: [
-                    "",
+                    "Negociar la apertura de un nuevo centro de trabajo.",
                     "Defenderse de una huelga que causa graves daños a las personas o a las cosas.",
-                    "",
-                    ""
+                    "Conseguir unos mejores acuerdos para la empresa en la negociación de un convenio colectivo",
+                    "Abastecerse de productos"
                 ],
                 numRespuestaCorrecta: 2,
             },
@@ -980,9 +980,9 @@ export const unidades = [
                 enunciado: "Durante una huelga, la empresa...",
                 posiblesRespuestas: [
                     "No puede contratar a nuevo personal para sustituir a las personas trabajadoras en huelga.",
-                    "",
-                    "",
-                    ""
+                    "Puede sustituir a los huelguistas por otras peronas contratadas para el periodo de huelga.",
+                    "Puede contratar a un nuevo personal con un contrato de intnerinidad para sustituir a las personas trabajadoras en huelga.",
+                    "Puede solicitar personal a una empresa de trabajo temporal."
                 ],
                 numRespuestaCorrecta: 1,
             },
