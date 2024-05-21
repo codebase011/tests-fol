@@ -1559,7 +1559,7 @@ export const unidades = [
         titulo: "Selección de personal",
         preguntas: [
             {
-                enunciado: "",
+                enunciado: " El anexo de las cartas de presentación sirve para...",
                 posiblesRespuestas: [
                     "",
                     "",
