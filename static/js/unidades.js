@@ -133,7 +133,7 @@ export const unidades = [
             },
         ],
     },
-    
+
     /**********************************************************************************************************************************************************************************************************
      * UNIDAD 2
      **********************************************************************************************************************************************************************************************************/
@@ -196,7 +196,7 @@ export const unidades = [
                     "Dos años.",
                     "Tres años.",
                     "Tres años, ampliables seis meses más.",
-                    "Cinco años." 
+                    "Cinco años."
                 ],
                 numRespuestaCorrecta: 2,
             },
@@ -206,7 +206,7 @@ export const unidades = [
                     "Dos años.",
                     "No tiene duración máxima.",
                     "Seis meses dentro de un periodo de un año, ampliables por convenlo colectivo a un máximo de doce meses dentro de un periodo de 18.",
-                    "Ocho meses dentro de un periodo de un año, ampliables por convenio colectivo a un máximo de doce meses dentro de un periodo de 18." 
+                    "Ocho meses dentro de un periodo de un año, ampliables por convenio colectivo a un máximo de doce meses dentro de un periodo de 18."
                 ],
                 numRespuestaCorrecta: 3,
             },
@@ -377,7 +377,7 @@ export const unidades = [
                     "Solo para menores de 18 años.",
                     "Ninguna de las respuestas anteriores es verdadera.",
                 ],
-                numRespuestaCorrecta:1,
+                numRespuestaCorrecta: 1,
             },
             {
                 enunciado: "Si las vacaciones coinciden con una incapacidad temporal por un accidente no laboral, la persona trabajadora..",
@@ -845,6 +845,25 @@ export const unidades = [
                 ],
                 numRespuestaCorrecta: 4,
             },
+        ],
+    },
+    /**********************************************************************************************************************************************************************************************************
+     * UNIDAD 7
+     **********************************************************************************************************************************************************************************************************/
+    {
+        titulo: "El sistema de la Seguridad Social",
+        preguntas: [
+            {
+                enunciado: "¿Cuál de estas personas trabajadoras se encuadra dentro del régimen general de la Seguridad Social?",
+                posiblesRespuestas: [
+                    "Azucena, que cursa un ciclo formativo de Administración y Finanzas.",
+                    "Vicenta, que trabaja en un barco pesquero.",
+                    "Un informático que trabaja como como autónomo.",
+                    "Un técnico de laboratorio que trabaja en una clínica."
+                ],
+                numRespuestaCorrecta: 4,
+            },
+            
         ],
     }
 ];
