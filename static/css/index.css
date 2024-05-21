@@ -26,6 +26,7 @@ nav {
     /* background: #222222; */
     /* background-color: #091f29; */
     background-color: #de2d2d;
+    overflow: scroll;
 }
 
 ul {
@@ -40,7 +41,7 @@ li {
 
 .nav__link {
     display: block;
-    padding: 16px 18px;
+    padding: 8px 18px;
     text-decoration: none;
     color: #eeeeee;
     font-weight: 500;

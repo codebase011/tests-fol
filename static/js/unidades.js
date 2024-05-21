@@ -1132,42 +1132,42 @@ export const unidades = [
         titulo: "Los equipos de trabajo",
         preguntas: [
             {
-                enunciado: "",
+                enunciado: "Una de las competencias que más demandan las empresas es..",
+                posiblesRespuestas: [
+                    "",
+                    "Capacidad para trabajar en equipo.",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "Los equipos de trabajo...",
+                posiblesRespuestas: [
+                    "",
+                    "Generan sinergias que redundan en la calidad del trabajo.",
+                    "",
+                    ""
+                ],
+                numRespuestaCorrecta: 2,
+            },
+            {
+                enunciado: "La comunicación asertiva permite..",
                 posiblesRespuestas: [
                     "",
                     "",
                     "",
-                    ""
+                    "Defenderse sin agredir."
                 ],
                 numRespuestaCorrecta: 4,
             },
             {
-                enunciado: "",
+                enunciado: "Una barrera psicológica en la comunicación dentro de los grupos puede ser..",
                 posiblesRespuestas: [
                     "",
                     "",
                     "",
-                    ""
-                ],
-                numRespuestaCorrecta: 4,
-            },
-            {
-                enunciado: "",
-                posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                numRespuestaCorrecta: 4,
-            },
-            {
-                enunciado: "",
-                posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "Los prejuicios sobre las personas o las cosas."
                 ],
                 numRespuestaCorrecta: 4,
             },
