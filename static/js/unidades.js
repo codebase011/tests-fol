@@ -1137,29 +1137,29 @@ export const unidades = [
             {
                 enunciado: "Una de las competencias que más demandan las empresas es..",
                 posiblesRespuestas: [
-                    "",
+                    "Saber gestionar las vacaciones",
                     "Capacidad para trabajar en equipo.",
-                    "",
-                    ""
+                    "Organizar eventos",
+                    "Todas las opciones son correctas"
                 ],
                 numRespuestaCorrecta: 2,
             },
             {
                 enunciado: "Los equipos de trabajo...",
                 posiblesRespuestas: [
-                    "",
+                    "Buscan un beneficio individual",
                     "Generan sinergias que redundan en la calidad del trabajo.",
-                    "",
-                    ""
+                    "No disponen de normas de comportamiento comunes para sus integrantes",
+                    "Todas las afirmaciones anteriores son correctas"
                 ],
                 numRespuestaCorrecta: 2,
             },
             {
                 enunciado: "La comunicación asertiva permite..",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
+                    "Defenderse agrediendo",
+                    "Defenderse pasivamente",
+                    "No defenderse",
                     "Defenderse sin agredir."
                 ],
                 numRespuestaCorrecta: 4,
@@ -1167,9 +1167,9 @@ export const unidades = [
             {
                 enunciado: "Una barrera psicológica en la comunicación dentro de los grupos puede ser..",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
+                    "El ruido que exista en el ambiente",
+                    "Un corte de electricidad",
+                    "No conocer la lengua en la que se habla",
                     "Los prejuicios sobre las personas o las cosas."
                 ],
                 numRespuestaCorrecta: 4,
@@ -1178,9 +1178,9 @@ export const unidades = [
                 enunciado: "Las personas trabajadoras de un círculo de calidad...",
                 posiblesRespuestas: [
                     "Suelen tener el mismo nivel jerárquico.",
-                    "",
-                    "",
-                    ""
+                    "Suelen pertenecer a distinto nivel jerárquico",
+                    "Pertenecen siempre a la dirección de la empresa",
+                    "Todas las afirmaciones anteriores son incorrectas"
                 ],
                 numRespuestaCorrecta: 1,
             },
@@ -1188,19 +1188,19 @@ export const unidades = [
                 enunciado: "Una tormenta de ideas es un método de trabajo en equipo que busca..",
                 posiblesRespuestas: [
                     "Generar ideas",
-                    "",
-                    "",
-                    ""
+                    "Analizar un proyecto",
+                    "Discutir un tema entre dos personas",
+                    "Conseguir un conflicto entre personas trabajadoras "
                 ],
                 numRespuestaCorrecta: 1,
             },
             {
                 enunciado: "Los equipos de alto rendimiento...",
                 posiblesRespuestas: [
-                    "",
-                    "",
+                    "Se crean en todas las empresas para que sus personas trabajadoras se conozcan ",
+                    "Se caracterizan por que las personas trabajadoras se reúnen todas las semanas con la dirección",
                     "Reúnen a un conjunto de personas para lograr las cotas más altas de productividad, creatividad e innovación.",
-                    ""
+                    "No existen en ninguna empresa"
                 ],
                 numRespuestaCorrecta: 3,
             },
@@ -1208,18 +1208,18 @@ export const unidades = [
                 enunciado: "La comunicación no violenta..",
                 posiblesRespuestas: [
                     "Ayuda en la solución de los conflictos",
-                    "",
-                    "",
-                    ""
+                    "Es un método de trabajo individual",
+                    "No se usa en los grupos",
+                    "No permite la interacción entre las personas"
                 ],
                 numRespuestaCorrecta: 1,
             },
             {
                 enunciado: "Un equipo de trabajo interfuncional tiene como función principal...",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
+                    "Debatir asuntos relacionados con el trabajo",
+                    "Planificar y distribuir el trabajo que desarrolla",
+                    "Tomar decisiones sobre aspectos económicos de la empresa",
                     "Poner en marcha proyectos en los que intervienen distintas secciones"
                 ],
                 numRespuestaCorrecta: 4,
@@ -1227,9 +1227,9 @@ export const unidades = [
             {
                 enunciado: "La inteligencia emocional está formada por..",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
+                    "Las titulaciones de las personas trabajadoras",
+                    "Las competencias técnicas de las personas trabajadoras",
+                    "Los idiomas que hablan las personas trabajadoras",
                     "Las competencias personales que completan los estudios y las capacidades profesionales"
                 ],
                 numRespuestaCorrecta: 4,
@@ -1238,19 +1238,19 @@ export const unidades = [
                 enunciado: "Según la teoria de Belbin, en todos los equipos...",
                 posiblesRespuestas: [
                     "Hay nueve roles",
-                    "",
-                    "",
-                    ""
+                    "Hay nueve personas siempre",
+                    "La persona que coordina pertenece a la dirección",
+                    "Todas las opciones anteriores son falsas"
                 ],
                 numRespuestaCorrecta: 1,
             },
             {
                 enunciado: "El role playing...",
                 posiblesRespuestas: [
-                    "",
-                    "",
+                    "Es una técnica de trabajo en equipo que agrupa a sus integrantes de seis en seis",
+                    "Es una lluvia de ideas sobre un tema",
                     "Es una técnica que pide a los integrantes del equipo que representen una situación imaginaria como si fuera real",
-                    ""
+                    "No es una técnica de trabajo en equipo"
                 ],
                 numRespuestaCorrecta: 3,
             },
@@ -1258,18 +1258,18 @@ export const unidades = [
                 enunciado: "Entre las utilidades de la técnica del estudio de casos, está su aplicación para..",
                 posiblesRespuestas: [
                     "Analizar y buscar soluciones a un problema real.",
-                    "",
-                    "",
-                    ""
+                    "Generar nuevas ideas que puedan aplicarse en la empresa",
+                    "Lograr que todos los integrantes del equipo den su opinión respecto a un tema",
+                    "Recoger información en un tiempo breve"
                 ],
                 numRespuestaCorrecta: 1,
             },
             {
                 enunciado: "El método de proyectos permite..",
                 posiblesRespuestas: [
-                    ".",
-                    "",
-                    "",
+                    "Lograr muchas ideas",
+                    "Estudiar un caso",
+                    "Dramatizar una situación",
                     "Formular un proyecto referido a una hipotética situación futura"
                 ],
                 numRespuestaCorrecta: 4,
