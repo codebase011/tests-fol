@@ -1,7 +1,6 @@
 /*************************************************************************************************************************************************************************************************************
+ * aManuel Alejandro Sánchez Garcia. Hola Florito 
  * DEFINICION DE LAS UNIDADES DEL TEMARIO
- * Autor: Manuel Alejandro Sánchez Garcia.
- * Colaboradores: Josefina Jimenez, Alberto Requena.
  * La constante "unidades" contiene un array con un objeto por unidad.
  * Cada objeto que representa a una unidad contiene a su vez un "titulo" y un array "preguntas"
  * El array "preguntas" contiene a su vez distintos objetos.
@@ -1416,29 +1415,29 @@ export const unidades = [
             {
                 enunciado: "Son competencias profesionales...",
                 posiblesRespuestas: [
-                    "",
+                    "La empatia.",
                     "Las destrezas y habilidades.",
-                    "",
-                    ""
+                    "La iniciativa y el liderazgo.",
+                    "La seguridad en uno mismo."
                 ],
                 numRespuestaCorrecta: 2,
             },
             {
                 enunciado: "Las competencias personales...",
                 posiblesRespuestas: [
-                    "",
-                    "",
+                    "Son los conocimientos y las destrezas.",
+                    "Son válidas para un puesto de trabajo concreto.",
                     "Sirven para cualquier puesto.",
-                    ""
+                    "Son las habilidades técnicas."
                 ],
                 numRespuestaCorrecta: 3,
             },
             {
                 enunciado: "La realización del autoanálisis te ayudará a...",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
+                    "Detectar puntos débiles y fuertes del currículum.",
+                    "Descubrir lagunas en tu formación.",
+                    "Preparar la entrevista de trabajo.",
                     "Todas las respuestas son ciertas."
                 ],
                 numRespuestaCorrecta: 4,
@@ -1447,38 +1446,38 @@ export const unidades = [
                 enunciado: "El plan de empresa es..",
                 posiblesRespuestas: [
                     "El documento en el que se plasma el proyecto empresarial.",
-                    "",
-                    "",
-                    ""
+                    "La idea que tenemos para crear una empresa.",
+                    "El documento que refleja la previsión de la evolución de una empresa.",
+                    "Todas las respuestas son ciertas."
                 ],
                 numRespuestaCorrecta: 1,
             },
             {
                 enunciado: "El networking no consiste en...",
                 posiblesRespuestas: [
-                    "",
+                    "Establecer relaciones con personas que pueden ayudarte a buscar empleo.",
                     "Contactar con personas conocidas y desconocidas para establecer relaciones personales.",
-                    "",
-                    ""
+                    "Conectar con personas desconocidas que nos pueden ayudar a buscar empleo.",
+                    "Establecer relaciones profesionales a través de las redes sociales."
                 ],
                 numRespuestaCorrecta: 2,
             },
             {
                 enunciado: "Para hacer networking, la red más adecuada es..",
                 posiblesRespuestas: [
-                    "",
-                    "",
+                    "Facebook.",
+                    "Twitter.",
                     "LinkedIn",
-                    ""
+                    "Instagram."
                 ],
                 numRespuestaCorrecta: 3,
             },
             {
                 enunciado: "A través del portal del Sistema Nacional de Empleo, puedes acceder a..",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
+                    "Las ofertas de empleo de las empresas privadas.",
+                    "Las ofertas de empleo público.",
+                    "Las ofertas de empleo en Europa.",
                     "Todas las respuestas son ciertas."
                 ],
                 numRespuestaCorrecta: 4,
@@ -1486,19 +1485,19 @@ export const unidades = [
             {
                 enunciado: "La formación profesional para el empleo acredita las competencias adquiridas mediante..",
                 posiblesRespuestas: [
-                    "",
+                    "El reconocimiento de la experiencia laboral.",
                     "Certificados de profesionalidad.",
-                    "",
-                    ""
+                    "Títulos equivalentes a los ciclos formativos.",
+                    "Ninguna respuesta es cierta."
                 ],
                 numRespuestaCorrecta: 2,
             },
             {
                 enunciado: "Los certificados de profesionalidad tienen validez en...",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
+                    "Una empresa.",
+                    "Una provincia.",
+                    "Una comunidad autónoma.",
                     "Todo el territorio nacional."
                 ],
                 numRespuestaCorrecta: 4,
@@ -1506,9 +1505,9 @@ export const unidades = [
             {
                 enunciado: "No es una clasificación de los empleados públicos..",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
+                    "Funcionarios de carrera.",
+                    "Funcionarios interinos.",
+                    "Personal laboral.",
                     "Funcionarios laborales."
                 ],
                 numRespuestaCorrecta: 4,
@@ -1516,29 +1515,29 @@ export const unidades = [
             {
                 enunciado: "¿Se puede acceder a la universidad desde los ciclos formativos",
                 posiblesRespuestas: [
-                    "",
+                    "No, en ningún caso.",
                     "Preferentemente, a los grados relacionados con los estudios de FP realizados",
-                    "",
-                    ""
+                    "Si, realizando obligatoriamente una prueba especifica.",
+                    "Hay que realizar la EvAU."
                 ],
                 numRespuestaCorrecta: 2,
             },
             {
                 enunciado: "El curriculum vitae Europass...",
                 posiblesRespuestas: [
-                    "",
-                    "",
+                    "Es un modelo de currículum que se adapta a cada Estado europeo.",
+                    "Es un curriculum que permite moverse por la Unión Europea.",
                     "Es un modelo de currículum único para toda la UE.",
-                    ""
+                    "Permite convalidar titulaciones de los estados de la UE."
                 ],
                 numRespuestaCorrecta: 3,
             },
             {
                 enunciado: "Mediante Eures, puedes...",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
+                    "Registrarte como demandante de empleo en la UE.",
+                    "Acceder a consejeros de empleo.",
+                    "Asesorarte sobre la vida en los Estados miembros de la UE.",
                     "Todas las respuestas son verdaderas"
                 ],
                 numRespuestaCorrecta: 4,
@@ -1546,10 +1545,10 @@ export const unidades = [
             {
                 enunciado: "Mediante Ploteus, no puedes...",
                 posiblesRespuestas: [
-                    "",
+                    "Informarte sobre las posibilidades de formación en Europa.",
                     "Crear un currículum vitae europeo.",
-                    "",
-                    ""
+                    "Recibir Información sobre becas en los paises europeos.",
+                    "Informarte sobre los sistemas educativos europeos."
                 ],
                 numRespuestaCorrecta: 2,
             },
