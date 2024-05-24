@@ -1,6 +1,7 @@
 /*************************************************************************************************************************************************************************************************************
- * aManuel Alejandro Sánchez Garcia. Hola Florito 
  * DEFINICION DE LAS UNIDADES DEL TEMARIO
+ * Autor: Manuel Alejandro Sánchez Garcia.
+ * Colaboradores: Josefina Jimenez, Alberto Requena.
  * La constante "unidades" contiene un array con un objeto por unidad.
  * Cada objeto que representa a una unidad contiene a su vez un "titulo" y un array "preguntas"
  * El array "preguntas" contiene a su vez distintos objetos.
