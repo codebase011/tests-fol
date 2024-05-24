@@ -1564,30 +1564,30 @@ export const unidades = [
             {
                 enunciado: " El anexo de las cartas de presentación sirve para...",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "Citar los documentos que acompañan a la carta",
-                    ""
+                    "Ampliar información.",
+                    "Poner las referencias y los Informes.",
+                    "Citar los documentos que acompañan a la carta.",
+                    "Incluir los datos personales."
                 ],
                 numRespuestaCorrecta: 3,
             },
             {
                 enunciado: "No es una forma correcta de comenzar la carta de presentación...",
                 posiblesRespuestas: [
-                    "",
+                    "He tenido conocimiento...",
                     "Habiendo conocido...",
-                    "",
-                    ""
+                    "El motivo por el que...",
+                    "Me dirijo o ustedes..."
                 ],
                 numRespuestaCorrecta: 2,
             },
             {
                 enunciado: "Se puede afirmar que..",
                 posiblesRespuestas: [
-                    "",
-                    "",
+                    "La carta de presentación no tiene importancia, pues nadie la lee.",
+                    "Utilizando papel de colores se tienen más posibilidades de que se lea la carta de presentación.",
                     "Las cartas de presentación deben estar concebidas y redactadas para cada puesto de trabajo",
-                    ""
+                    "Lo más lógico es tener una carta estándar para todos los trabajos."
                 ],
                 numRespuestaCorrecta: 3,
             },
@@ -1595,48 +1595,48 @@ export const unidades = [
                 enunciado: "Las cartas de presentación..",
                 posiblesRespuestas: [
                     "Deben ir personalizadas.",
-                    "",
-                    "",
-                    ""
+                    "Han de ser extensas y detalladas.",
+                    "Pueden tener más de una hoja.",
+                    "Se escriben en un tono coloquial."
                 ],
                 numRespuestaCorrecta: 1,
             },
             {
                 enunciado: "El currículum ha de realizarse...",
                 posiblesRespuestas: [
-                    "",
-                    "",
+                    "De manera extensa.",
+                    "De manera detallada.",
                     "De manera sintética y clara.",
-                    ""
+                    "Cuidando más el contenido que la forma."
                 ],
                 numRespuestaCorrecta: 3,
             },
             {
                 enunciado: "El currículum debe contener...",
                 posiblesRespuestas: [
-                    "",
+                    "Valoraciones personales.",
                     "Méritos objetivos",
-                    "",
-                    ""
+                    "Elogios.",
+                    "Referencias procedentes de los trabajos realizados anteriormente."
                 ],
                 numRespuestaCorrecta: 2,
             },
             {
                 enunciado: "Son instrumentos de selección imprescindibles..",
                 posiblesRespuestas: [
-                    "",
-                    "",
+                    "Los test de inteligencia.",
+                    "Los test de personalidad.",
                     "Las entrevistas.",
-                    ""
+                    "Los test de conocimientos."
                 ],
                 numRespuestaCorrecta: 3,
             },
             {
                 enunciado: "Para preparar una entrevista no es conveniente...",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
+                    "Conocer los propios puntos fuertes y débiles.",
+                    "Preparar argumentos para defender los puntos débiles.",
+                    "Conocer datos de la empresa a la que se acude.",
                     "Improvisar, como un signo de agilidad mental"
                 ],
                 numRespuestaCorrecta: 4,
@@ -1644,9 +1644,9 @@ export const unidades = [
             {
                 enunciado: "En una entrevista se valora positivamente...",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
+                    "Contestar de forma muy breve.",
+                    "Tutear a la persona que entrevista para dar impresión de cordialidad.",
+                    "Inspirar lástima, decir que estás en mala situación.",
                     "No hacer valoraciones morales"
                 ],
                 numRespuestaCorrecta: 4,
@@ -1654,10 +1654,10 @@ export const unidades = [
             {
                 enunciado: "En las entrevistas de trabajo, ¿qué gesto se interpretará de una forma positiva?",
                 posiblesRespuestas: [
-                    "",
+                    "Mantener ocultas las manos.",
                     "Sostener la mirada ante preguntas difíciles.",
-                    "",
-                    ""
+                    "Tocarse la nariz.",
+                    "Estrechar la mano de manera escurridiza."
                 ],
                 numRespuestaCorrecta: 2,
             },
@@ -1665,28 +1665,28 @@ export const unidades = [
                 enunciado: "Durante la entrevista, es una actitud acertada..",
                 posiblesRespuestas: [
                     "Mirar a los ojos al entrevistador o la entrevistadora",
-                    "",
-                    "",
-                    ""
+                    "Ser sincero, aunque pueda ser perjudicial.",
+                    "Contestar de forma muy breve.",
+                    "Tutear al entrevistador o la entrevistadora."
                 ],
-                numRespuestaCorrecta: 4,
+                numRespuestaCorrecta: 1,
             },
             {
                 enunciado: "La cabeza inclinada hacia un lado puede indicar..",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
-                    "Aburrimiento"
+                    "Desaprobación.",
+                    "Interés.",
+                    "Mala educación.",
+                    "Aburrimiento."
                 ],
                 numRespuestaCorrecta: 4,
             },
             {
                 enunciado: "No es una actitud acertada durante la entrevista...",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
+                    "Mentir para defender el curriculum.",
+                    "Hablar mal de los antiguos jefes y jefas.",
+                    "Preguntar datos personales al entrevistador.",
                     "Todas las anteriores son actitudes erróneas."
                 ],
                 numRespuestaCorrecta: 4,
@@ -1694,9 +1694,9 @@ export const unidades = [
             {
                 enunciado: "Se valorará positivamente que en una entrevista de trabajo se pregunte por...",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
+                    "Quiénes serán los compañeros.",
+                    "Las posibilidades de promoción.",
+                    "La estructura del departamento.",
                     "Todas son preguntas acertadas"
                 ],
                 numRespuestaCorrecta: 4,
@@ -1704,14 +1704,13 @@ export const unidades = [
             {
                 enunciado: "Una entrevista de incidentes críticos indaga sobre..",
                 posiblesRespuestas: [
-                    "",
+                    "La vida personal de la persona candidata.",
                     "Las competencias del candidato o la candidata.",
-                    "",
-                    ""
+                    "La vida profesional de la persona candidata.",
+                    "El historial académico del candidato o la candidata."
                 ],
                 numRespuestaCorrecta: 2,
             },
-            
         ],
     }
 ];
