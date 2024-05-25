@@ -1,5 +1,6 @@
 /*************************************************************************************************************************************************************************************************************
  * Manuel Alejandro Sánchez Garcia
+ * Colaboradores: Fini Jimenez, Alberto Requena
  * DEFINICION DE LAS UNIDADES DEL TEMARIO
  * La constante "unidades" contiene un array con un objeto por unidad.
  * Cada objeto que representa a una unidad contiene a su vez un "titulo" y un array "preguntas"
@@ -1679,7 +1680,7 @@ export const unidades = [
                     "Mala educación.",
                     "Aburrimiento."
                 ],
-                numRespuestaCorrecta: 4,
+                numRespuestaCorrecta: 2,
             },
             {
                 enunciado: "No es una actitud acertada durante la entrevista...",
