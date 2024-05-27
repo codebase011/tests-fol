@@ -1138,29 +1138,29 @@ export const unidades = [
             {
                 enunciado: "Una de las competencias que más demandan las empresas es..",
                 posiblesRespuestas: [
-                    "",
+                    "Saber gestionar las vacaciones",
                     "Capacidad para trabajar en equipo.",
-                    "",
-                    ""
+                    "Organizar eventos",
+                    "Todas las opciones son correctas"
                 ],
                 numRespuestaCorrecta: 2,
             },
             {
                 enunciado: "Los equipos de trabajo...",
                 posiblesRespuestas: [
-                    "",
+                    "Buscan un beneficio individual",
                     "Generan sinergias que redundan en la calidad del trabajo.",
-                    "",
-                    ""
+                    "No disponen de normas de comportamiento comunes para sus integrantes",
+                    "Todas las afirmaciones anteriores son correctas"
                 ],
                 numRespuestaCorrecta: 2,
             },
             {
                 enunciado: "La comunicación asertiva permite..",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
+                    "Defenderse agrediendo",
+                    "Defenderse pasivamente",
+                    "No defenderse",
                     "Defenderse sin agredir."
                 ],
                 numRespuestaCorrecta: 4,
@@ -1168,9 +1168,9 @@ export const unidades = [
             {
                 enunciado: "Una barrera psicológica en la comunicación dentro de los grupos puede ser..",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
+                    "El ruido que exista en el ambiente",
+                    "Un corte de electricidad",
+                    "No conocer la lengua en la que se habla",
                     "Los prejuicios sobre las personas o las cosas."
                 ],
                 numRespuestaCorrecta: 4,
@@ -1179,9 +1179,9 @@ export const unidades = [
                 enunciado: "Las personas trabajadoras de un círculo de calidad...",
                 posiblesRespuestas: [
                     "Suelen tener el mismo nivel jerárquico.",
-                    "",
-                    "",
-                    ""
+                    "Suelen pertenecer a distinto nivel jerárquico",
+                    "Pertenecen siempre a la dirección de la empresa",
+                    "Todas las afirmaciones anteriores son incorrectas"
                 ],
                 numRespuestaCorrecta: 1,
             },
@@ -1189,19 +1189,19 @@ export const unidades = [
                 enunciado: "Una tormenta de ideas es un método de trabajo en equipo que busca..",
                 posiblesRespuestas: [
                     "Generar ideas",
-                    "",
-                    "",
-                    ""
+                    "Analizar un proyecto",
+                    "Discutir un tema entre dos personas",
+                    "Conseguir un conflicto entre personas trabajadoras "
                 ],
                 numRespuestaCorrecta: 1,
             },
             {
                 enunciado: "Los equipos de alto rendimiento...",
                 posiblesRespuestas: [
-                    "",
-                    "",
+                    "Se crean en todas las empresas para que sus personas trabajadoras se conozcan ",
+                    "Se caracterizan por que las personas trabajadoras se reúnen todas las semanas con la dirección",
                     "Reúnen a un conjunto de personas para lograr las cotas más altas de productividad, creatividad e innovación.",
-                    ""
+                    "No existen en ninguna empresa"
                 ],
                 numRespuestaCorrecta: 3,
             },
@@ -1209,18 +1209,18 @@ export const unidades = [
                 enunciado: "La comunicación no violenta..",
                 posiblesRespuestas: [
                     "Ayuda en la solución de los conflictos",
-                    "",
-                    "",
-                    ""
+                    "Es un método de trabajo individual",
+                    "No se usa en los grupos",
+                    "No permite la interacción entre las personas"
                 ],
                 numRespuestaCorrecta: 1,
             },
             {
                 enunciado: "Un equipo de trabajo interfuncional tiene como función principal...",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
+                    "Debatir asuntos relacionados con el trabajo",
+                    "Planificar y distribuir el trabajo que desarrolla",
+                    "Tomar decisiones sobre aspectos económicos de la empresa",
                     "Poner en marcha proyectos en los que intervienen distintas secciones"
                 ],
                 numRespuestaCorrecta: 4,
@@ -1228,9 +1228,9 @@ export const unidades = [
             {
                 enunciado: "La inteligencia emocional está formada por..",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
+                    "Las titulaciones de las personas trabajadoras",
+                    "Las competencias técnicas de las personas trabajadoras",
+                    "Los idiomas que hablan las personas trabajadoras",
                     "Las competencias personales que completan los estudios y las capacidades profesionales"
                 ],
                 numRespuestaCorrecta: 4,
@@ -1239,19 +1239,19 @@ export const unidades = [
                 enunciado: "Según la teoria de Belbin, en todos los equipos...",
                 posiblesRespuestas: [
                     "Hay nueve roles",
-                    "",
-                    "",
-                    ""
+                    "Hay nueve personas siempre",
+                    "La persona que coordina pertenece a la dirección",
+                    "Todas las opciones anteriores son falsas"
                 ],
                 numRespuestaCorrecta: 1,
             },
             {
                 enunciado: "El role playing...",
                 posiblesRespuestas: [
-                    "",
-                    "",
+                    "Es una técnica de trabajo en equipo que agrupa a sus integrantes de seis en seis",
+                    "Es una lluvia de ideas sobre un tema",
                     "Es una técnica que pide a los integrantes del equipo que representen una situación imaginaria como si fuera real",
-                    ""
+                    "No es una técnica de trabajo en equipo"
                 ],
                 numRespuestaCorrecta: 3,
             },
@@ -1259,18 +1259,18 @@ export const unidades = [
                 enunciado: "Entre las utilidades de la técnica del estudio de casos, está su aplicación para..",
                 posiblesRespuestas: [
                     "Analizar y buscar soluciones a un problema real.",
-                    "",
-                    "",
-                    ""
+                    "Generar nuevas ideas que puedan aplicarse en la empresa",
+                    "Lograr que todos los integrantes del equipo den su opinión respecto a un tema",
+                    "Recoger información en un tiempo breve"
                 ],
                 numRespuestaCorrecta: 1,
             },
             {
                 enunciado: "El método de proyectos permite..",
                 posiblesRespuestas: [
-                    ".",
-                    "",
-                    "",
+                    "Lograr muchas ideas",
+                    "Estudiar un caso",
+                    "Dramatizar una situación",
                     "Formular un proyecto referido a una hipotética situación futura"
                 ],
                 numRespuestaCorrecta: 4,
@@ -1287,10 +1287,10 @@ export const unidades = [
             {
                 enunciado: "Los problemas técnicos...",
                 posiblesRespuestas: [
-                    "",
-                    "",
+                    "Son siempre dilemas de personas",
+                    "No se dan en las empresas",
                     "Puden afectar a la viabilidad de la empresa",
-                    ""
+                    "Son siempre positivos"
                 ],
                 numRespuestaCorrecta: 3,
             },
@@ -1299,8 +1299,8 @@ export const unidades = [
                 enunciado: "Algunas de las causas que pueden provocar conflictos son...",
                 posiblesRespuestas: [
                     "Un reparto poco nítido del trabajo.",
-                    "",
-                    "",
+                    "La existencia de aucerdo en un tema",
+                    "La diferencia de valores o creencias sobre un tema",
                     "Recibir órdenes diferentes de dos personas distintas"
                 ],
                 numRespuestaCorrecta: 1,
@@ -1308,10 +1308,10 @@ export const unidades = [
             {
                 enunciado: "Una controversia clara indica que..",
                 posiblesRespuestas: [
-                    "",
-                    "",
+                    "Las partes no tienen conocimiento de la existencia de un problema",
+                    "El problema se produce entre personas del mismo nivel jerárquico",
                     "Las partes comunican que existe un problema que hay que resolver.",
-                    ""
+                    "Todas las afirmaciones anteriores son incorrectas"
                 ],
                 numRespuestaCorrecta: 3,
             },
@@ -1319,28 +1319,28 @@ export const unidades = [
                 enunciado: "El conflicto latente es aquel que...",
                 posiblesRespuestas: [
                     "No se manifiesta expresamente, pero existe",
-                    "",
-                    "",
-                    "d"
+                    "Se manifiesta expresamente, pero existe",
+                    "Se manifiesta solamente entre las personas que lo sufren",
+                    "Implica que las partes han expresado su existencia a los compañeros y compañeras "
                 ],
                 numRespuestaCorrecta: 1,
             },
             {
                 enunciado: "Son factores externos al sujeto en la toma de decisiones...",
                 posiblesRespuestas: [
-                    "",
+                    "La aptitud física, intelectual y social",
                     "El riesgo y las presiones",
-                    "",
-                    ""
+                    "La aptitud con la que nos enfrentamos a los conflictos",
+                    "La cultura que vive cada persona"
                 ],
                 numRespuestaCorrecta: 2,
             },
             {
                 enunciado: "Se entiende por actitud...",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
+                    "El conjunto de conocimientos que tiene el sujeto en un proceso de conflicto",
+                    "Las presiones que sufren las partes en un conflicto",
+                    "La experiencia de las personas",
                     "La manera en la que nuestro ánimo o nuestra mente se enfrentan a una situación."
                 ],
                 numRespuestaCorrecta: 4,
@@ -1348,10 +1348,10 @@ export const unidades = [
             {
                 enunciado: "Un conflicto negativo o destructivo en una empresa...",
                 posiblesRespuestas: [
-                    "",
-                    "",
+                    "Genera una disminución del rendimiento de las personas trabajadoras",
+                    "Está provocado por diferencias entre la dirección y los operarios y operarias",
                     "Desestabiliza las funciones y las tareas en la empresa",
-                    ""
+                    "Surge entre una persona trabajadora y sus compañeros y compañeras"
                 ],
                 numRespuestaCorrecta: 3,
             },
@@ -1359,18 +1359,18 @@ export const unidades = [
                 enunciado: "En la estrategia negociadora cooperativa, los sujetos...",
                 posiblesRespuestas: [
                     "Tienden a colaborar para lograr una solución.",
-                    "",
-                    "",
-                    ""
+                    "Trabajan para destruir a la parte contraria",
+                    "Usan medios agresivos en el proceso",
+                    "Solo usan la huelga como medio de resolución"
                 ],
                 numRespuestaCorrecta: 1,
             },
             {
                 enunciado: "La última fase de un proceso de negociación se denomina fase de cierre, y en ella..",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
+                    "Las partes indican sus pretensiones",
+                    "Las partes se conocen",
+                    "Se consensúa un objetivo",
                     "Se llega a un acuerdo o no."
                 ],
                 numRespuestaCorrecta: 4,
@@ -1378,9 +1378,9 @@ export const unidades = [
             {
                 enunciado: " Cuando, en una negociación, una de las partes utiliza una estrategia de competición, se entiende que...",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
+                    "La aptitud que se va a mantener en el proceso es meramente coorporativa",
+                    "La actitud que se va a mantener en el proceso es sobre todo asertiva",
+                    "Se mezclan elementos de cooperación y asertividad",
                     "La actitud que se va a mantener en el proceso será básicamente defensiva"
                 ],
                 numRespuestaCorrecta: 4,
@@ -1388,9 +1388,9 @@ export const unidades = [
             {
                 enunciado: "Una táctica negociadora puede ser...",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
+                    "Hablar en primer lugar",
+                    "Fijar una fecha para negociar",
+                    "Elegir el lugar",
                     "Todas las anteriores son tácticas negociadoras"
                 ],
                 numRespuestaCorrecta: 4,
@@ -1398,10 +1398,10 @@ export const unidades = [
             {
                 enunciado: "Si las partes de un conflicto se someten a un arbitraje para lograr la resolución del mismo, deben saber que la persona encargada del arbitraje..",
                 posiblesRespuestas: [
-                    "",
+                    "Propondrá unas soluciones no vinculantes para las partes",
                     "Dictará la solución por medio de un laudo de obligado cumplimiento.",
-                    "",
-                    ""
+                    "Ayudará a las partes en la negociación",
+                    "Todas las afirmaciones anteriores son correctas"
                 ],
                 numRespuestaCorrecta: 2,
             },            
