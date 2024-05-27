@@ -1286,10 +1286,10 @@ export const unidades = [
             {
                 enunciado: "Los problemas técnicos...",
                 posiblesRespuestas: [
-                    "",
-                    "",
+                    "Son siempre dilemas de personas",
+                    "No se dan en las empresas",
                     "Puden afectar a la viabilidad de la empresa",
-                    ""
+                    "Son siempre positivos"
                 ],
                 numRespuestaCorrecta: 3,
             },
@@ -1298,8 +1298,8 @@ export const unidades = [
                 enunciado: "Algunas de las causas que pueden provocar conflictos son...",
                 posiblesRespuestas: [
                     "Un reparto poco nítido del trabajo.",
-                    "",
-                    "",
+                    "La existencia de aucerdo en un tema",
+                    "La diferencia de valores o creencias sobre un tema",
                     "Recibir órdenes diferentes de dos personas distintas"
                 ],
                 numRespuestaCorrecta: 1,
@@ -1307,10 +1307,10 @@ export const unidades = [
             {
                 enunciado: "Una controversia clara indica que..",
                 posiblesRespuestas: [
-                    "",
-                    "",
+                    "Las partes no tienen conocimiento de la existencia de un problema",
+                    "El problema se produce entre personas del mismo nivel jerárquico",
                     "Las partes comunican que existe un problema que hay que resolver.",
-                    ""
+                    "Todas las afirmaciones anteriores son incorrectas"
                 ],
                 numRespuestaCorrecta: 3,
             },
@@ -1318,28 +1318,28 @@ export const unidades = [
                 enunciado: "El conflicto latente es aquel que...",
                 posiblesRespuestas: [
                     "No se manifiesta expresamente, pero existe",
-                    "",
-                    "",
-                    "d"
+                    "Se manifiesta expresamente, pero existe",
+                    "Se manifiesta solamente entre las personas que lo sufren",
+                    "Implica que las partes han expresado su existencia a los compañeros y compañeras "
                 ],
                 numRespuestaCorrecta: 1,
             },
             {
                 enunciado: "Son factores externos al sujeto en la toma de decisiones...",
                 posiblesRespuestas: [
-                    "",
+                    "La aptitud física, intelectual y social",
                     "El riesgo y las presiones",
-                    "",
-                    ""
+                    "La aptitud con la que nos enfrentamos a los conflictos",
+                    "La cultura que vive cada persona"
                 ],
                 numRespuestaCorrecta: 2,
             },
             {
                 enunciado: "Se entiende por actitud...",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
+                    "El conjunto de conocimientos que tiene el sujeto en un proceso de conflicto",
+                    "Las presiones que sufren las partes en un conflicto",
+                    "La experiencia de las personas",
                     "La manera en la que nuestro ánimo o nuestra mente se enfrentan a una situación."
                 ],
                 numRespuestaCorrecta: 4,
@@ -1347,10 +1347,10 @@ export const unidades = [
             {
                 enunciado: "Un conflicto negativo o destructivo en una empresa...",
                 posiblesRespuestas: [
-                    "",
-                    "",
+                    "Genera una disminución del rendimiento de las personas trabajadoras",
+                    "Está provocado por diferencias entre la dirección y los operarios y operarias",
                     "Desestabiliza las funciones y las tareas en la empresa",
-                    ""
+                    "Surge entre una persona trabajadora y sus compañeros y compañeras"
                 ],
                 numRespuestaCorrecta: 3,
             },
@@ -1358,18 +1358,18 @@ export const unidades = [
                 enunciado: "En la estrategia negociadora cooperativa, los sujetos...",
                 posiblesRespuestas: [
                     "Tienden a colaborar para lograr una solución.",
-                    "",
-                    "",
-                    ""
+                    "Trabajan para destruir a la parte contraria",
+                    "Usan medios agresivos en el proceso",
+                    "Solo usan la huelga como medio de resolución"
                 ],
                 numRespuestaCorrecta: 1,
             },
             {
                 enunciado: "La última fase de un proceso de negociación se denomina fase de cierre, y en ella..",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
+                    "Las partes indican sus pretensiones",
+                    "Las partes se conocen",
+                    "Se consensúa un objetivo",
                     "Se llega a un acuerdo o no."
                 ],
                 numRespuestaCorrecta: 4,
@@ -1377,9 +1377,9 @@ export const unidades = [
             {
                 enunciado: " Cuando, en una negociación, una de las partes utiliza una estrategia de competición, se entiende que...",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
+                    "La aptitud que se va a mantener en el proceso es meramente coorporativa",
+                    "La actitud que se va a mantener en el proceso es sobre todo asertiva",
+                    "Se mezclan elementos de cooperación y asertividad",
                     "La actitud que se va a mantener en el proceso será básicamente defensiva"
                 ],
                 numRespuestaCorrecta: 4,
@@ -1387,9 +1387,9 @@ export const unidades = [
             {
                 enunciado: "Una táctica negociadora puede ser...",
                 posiblesRespuestas: [
-                    "",
-                    "",
-                    "",
+                    "Hablar en primer lugar",
+                    "Fijar una fecha para negociar",
+                    "Elegir el lugar",
                     "Todas las anteriores son tácticas negociadoras"
                 ],
                 numRespuestaCorrecta: 4,
@@ -1397,10 +1397,10 @@ export const unidades = [
             {
                 enunciado: "Si las partes de un conflicto se someten a un arbitraje para lograr la resolución del mismo, deben saber que la persona encargada del arbitraje..",
                 posiblesRespuestas: [
-                    "",
+                    "Propondrá unas soluciones no vinculantes para las partes",
                     "Dictará la solución por medio de un laudo de obligado cumplimiento.",
-                    "",
-                    ""
+                    "Ayudará a las partes en la negociación",
+                    "Todas las afirmaciones anteriores son correctas"
                 ],
                 numRespuestaCorrecta: 2,
             },            
