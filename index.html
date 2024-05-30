@@ -1,12 +1,14 @@
 <!-- Manuel Alejandro Sanchez García -->
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./static/css/index.css">
   <title>Tests FOL</title>
 </head>
+
 <body>
   <header>
     <!-- Menú hamburger -->
@@ -24,34 +26,43 @@
   <script type="module" src="./static/js/index.js"></script>
   <script>
     document.addEventListener("DOMContentLoaded", () => {
-        // Obtener la IP del visitante
-        fetch('https://api.ipify.org?format=json')
+      fetch('https://api.ipify.org?format=json')
+        .then(response => response.json())
+        .then(data => {
+
+          const browserInfo = {
+            userAgent: navigator.userAgent,
+            language: navigator.language,
+            platform: navigator.platform,
+            cookiesEnabled: navigator.cookieEnabled
+          };
+          
+          const ip = data.ip;
+          console.log("ip", ip);
+          console.log("browserInfo", browserInfo);
+          const timestamp = new Date().toISOString();
+          const log = { ip: ip, visitTime: timestamp, browserInfo };
+
+          // Almacenar la IP en JSONBin
+          fetch('https://api.jsonbin.io/v3/b', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              //'X-Master-Key': '$2b$10$YOUR_JSONBIN_KEY' // Reemplaza con tu clave de JSONBin
+              'X-Access-Key': '$2a$10$BlwWUJSERJ8.J.XbHRwCHOtBaUjAiljDSpU8d4KcLwHQmtUQsaLu6',
+              'X-Bin-Name': 'Visita',
+            },
+            body: JSON.stringify(log)
+          })
             .then(response => response.json())
             .then(data => {
-                console.log("ip", data.ip)
-                const ip = data.ip;
-                const timestamp = new Date().toISOString();
-                const log = { ip: ip, visitTime: timestamp };
-
-                // Almacenar la IP en JSONBin
-                fetch('https://api.jsonbin.io/v3/b', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        //'X-Master-Key': '$2b$10$YOUR_JSONBIN_KEY' // Reemplaza con tu clave de JSONBin
-                        'X-Access-Key': '$2a$10$BlwWUJSERJ8.J.XbHRwCHOtBaUjAiljDSpU8d4KcLwHQmtUQsaLu6',
-                        'X-Bin-Name': 'Visita',
-                      },
-                    body: JSON.stringify(log)
-                })
-                .then(response => response.json())
-                .then(data => {
-                    console.log('Datos guardados:', data);
-                })
-                .catch(error => console.error('Error al guardar los datos:', error));
+              console.log('Datos guardados:', data);
             })
-            .catch(error => console.error('Error al obtener la IP:', error));
+            .catch(error => console.error('Error al guardar los datos:', error));
+        })
+        .catch(error => console.error('Error al obtener la IP:', error));
     });
-</script>
+  </script>
 </body>
+
 </html>
