@@ -69,7 +69,7 @@ function manejarNavegacion() {
                 enlacesUnidades += `
                         <li>
                             <a href="#/test/${numUnidad + 1}"  onClick="menuOnClick()">
-                                Unidad ${numUnidad + 1}: ${unidades[numUnidad].titulo}
+                                <b>Unidad ${numUnidad + 1}</b>: ${unidades[numUnidad].titulo}
                             </a>
                         </li>
                 `;
