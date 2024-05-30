@@ -22,5 +22,36 @@
     <!-- Aquí se cargará el contenido de las páginas -->
   </div>
   <script type="module" src="./static/js/index.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+        // Obtener la IP del visitante
+        fetch('https://api.ipify.org?format=json')
+            .then(response => response.json())
+            .then(data => {
+                console.log("ip", data.ip)
+                const ip = data.ip;
+                const timestamp = new Date().toISOString();
+                const log = { ip: ip, visitTime: timestamp };
+
+                // Almacenar la IP en JSONBin
+                fetch('https://api.jsonbin.io/v3/b', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        //'X-Master-Key': '$2b$10$YOUR_JSONBIN_KEY' // Reemplaza con tu clave de JSONBin
+                        'X-Access-Key': '$2a$10$BlwWUJSERJ8.J.XbHRwCHOtBaUjAiljDSpU8d4KcLwHQmtUQsaLu6',
+                        'X-Bin-Name': 'Visita',
+                      },
+                    body: JSON.stringify(log)
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Datos guardados:', data);
+                })
+                .catch(error => console.error('Error al guardar los datos:', error));
+            })
+            .catch(error => console.error('Error al obtener la IP:', error));
+    });
+</script>
 </body>
 </html>
